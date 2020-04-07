@@ -1,1 +1,1 @@
-# www.shimming-toolbox.org
+# Website for shimming-toolbox project
