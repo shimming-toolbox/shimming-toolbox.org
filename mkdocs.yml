@@ -1,0 +1,4 @@
+site_name: Shimming-toolbox
+theme: {name: material}
+repo_url: https://github.com/neuropoly/realtime_shimming
+docs_dir: ./docs
