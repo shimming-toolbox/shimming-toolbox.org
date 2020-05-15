@@ -1,5 +1,8 @@
-# realtime_shimming
+# shimming-toolbox
 
+!!! warning
+    This website is a work in progress. 
+    
 - [Overview](#overview)
 - [Dependencies & Installation](#dependencies-and-installation)
 - [Getting started](#getting-started)
