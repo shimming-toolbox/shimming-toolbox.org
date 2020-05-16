@@ -25,3 +25,4 @@ jobs:
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+          CUSTOM_DOMAIN: www.shimming-toolbox.org
