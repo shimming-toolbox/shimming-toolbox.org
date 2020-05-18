@@ -4,3 +4,18 @@ repo_url: https://github.com/neuropoly/realtime_shimming
 docs_dir: ./docs
 markdown_extensions:
   - admonition
+nav:
+- 'Introduction': 'index.md'
+- 'Getting Started': 'getting_started.md'
+- 'Help': 'help.md'
+- 'Contributing':
+  - 'General': 'contributing.md'
+  - 'API documentation':
+    - 'Insert doc here': 'docs.md'
+- 'Other ressources':
+  - 'Hardware':
+    - 'Description': 'description.md'
+    - 'Assembly': 'assembly.md'
+- 'Contributors': 'contributors.md'
+- 'License': 'license.md'
+  
