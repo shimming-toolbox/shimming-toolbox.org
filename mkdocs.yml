@@ -175,8 +175,8 @@ nav:
         - 'ShimGui': 'contributing/api_documentation/Ui/ShimGui/ShimGui.md'
 - 'Other ressources':
   - 'Hardware':
-    - 'Description': 'description.md'
-    - 'Assembly': 'assembly.md'
+    - 'Description': 'other-ressources/hardware/description.md'
+    - 'Assembly': 'other-ressources/hardware/assembly.md'
 - 'Contributors': 'contributors.md'
 - 'License': 'license.md'
       
