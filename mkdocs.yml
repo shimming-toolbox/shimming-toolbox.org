@@ -33,10 +33,10 @@ nav:
         - 'ShimSpecs_Rriyan': 'contributing/api_documentation/Coils/Shim_Rriyan/ShimSpecs_Rriyan.md'
       - 'Shim_Siemens':
         - 'Shim_Prisma':
-          - 'Shim_HGM_Prisma':
-            - 'ShimSpecs_HGM_Prisma': 'contributing/api_documentation/Coils/Shim_Siemens/Shim_Prisma/Shim_HGM_PrismaShimSpecs_HGM_Prisma.md'
-          - 'Shim_IUGM_Prisma_fit':
-            - 'ShimSpecs_IUGM_Prisma_fit': 'contributing/api_documentation/Coils/Shim_Siemens/Shim_Prisma/Shim_IUGM_Prisma_fitShimSpecs_IUGM_Prisma_fit.md'
+#          - 'Shim_HGM_Prisma':
+#            - 'ShimSpecs_HGM_Prisma': 'contributing/api_documentation/Coils/Shim_Siemens/Shim_Prisma/Shim_HGM_PrismaShimSpecs_HGM_Prisma.md'
+#          - 'Shim_IUGM_Prisma_fit':
+#            - 'ShimSpecs_IUGM_Prisma_fit': 'contributing/api_documentation/Coils/Shim_Siemens/Shim_Prisma/Shim_IUGM_Prisma_fitShimSpecs_IUGM_Prisma_fit.md'
           - 'ShimSpecs_Prisma': 'contributing/api_documentation/Coils/Shim_Siemens/Shim_Prisma/ShimSpecs_Prisma.md'
       - 'Shim_Sim':
         - 'ShimOpt_SphericalHarmonics':
@@ -179,32 +179,3 @@ nav:
     - 'Assembly': 'other-ressources/hardware/assembly.md'
 - 'Contributors': 'contributors.md'
 - 'License': 'license.md'
-      
-# - '': '.md'
-
-# contributing/api_documentation/
-# contributing/api_documentation/Aux/RespiratoryProbe
-# contributing/api_documentation/Aux/RespiratoryProbe/CapacitiveProbe/
-# contributing/api_documentation/Aux/RespiratoryProbe/PressureProbe/
-
-# contributing/api_documentation/Coils/
-# contributing/api_documentation/Coils/Shim_Greg/
-# contributing/api_documentation/Coils/Shim_Rriyan/
-# ontributing/api_documentation/Coils/Shim_Siemens/Shim_Prisma/
-# contributing/api_documentation/Coils/Shim_Siemens/Shim_Prisma/Shim_HGM_Prisma
-# contributing/api_documentation/Coils/Shim_Siemens/Shim_Prisma/Shim_IUGM_Prisma_fit
-# contributing/api_documentation/Coils/Shim_Sim/ShimOpt_SphericalHarmonics/
-# contributing/api_documentation/Coils/Shim_Template/
-# contributing/api_documentation/example/Shim_revC/
-    
-# contributing/api_documentation/Img/
-# contributing/api_documentation/Img/misc/
-    
-# contributing/api_documentation/misc/
-    
-# contributing/api_documentation/external/altmany-export_fig-4c015d5/
-# contributing/api_documentation/external/dicm2nii/
-# contributing/api_documentation/external/NIFTI/
-# contributing/api_documentation/external/parse-dicom/src/matlab/
-# contributing/api_documentation/external/stoploop/
-
