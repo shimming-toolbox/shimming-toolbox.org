@@ -1,3 +1,3 @@
 # Contributors
 
-[List of contributors.](https://github.com/neuropoly/realtime_shimming/graphs/contributors)
+[List of contributors.](https://github.com/shimming-toolbox/shimming-toolbox/graphs/contributors)

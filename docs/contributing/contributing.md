@@ -135,11 +135,12 @@ TODO: ADD AN EXAMPLE WITH LINK TO PR
 
 [What is code review?](https://help.github.com/articles/about-pull-request-reviews/)
 
-Any changes submitted to the master branch will go through code review. For a pull request to be accepted it must have:
+Any changes submitted to the master branch will go through code review. For a pull request to be accepted:
 
-* At least 2 members approve the changes.
+* At least 1 member should approve the changes.
 * TravisCI must pass successfully
 
-Reviewing members are :
+Reviewing members are:
 * @jcohenadad
 * @rtopfer
+* @po09i 
