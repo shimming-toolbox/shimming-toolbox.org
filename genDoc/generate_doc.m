@@ -11,28 +11,54 @@ cd temp
 
 % Clone shimming-toolbox repos and add to matlab path
 !git clone https://github.com/shimming-toolbox/helpDocMd.git
-!git clone https://github.com/ewiger/yamlmatlab.git
+
+% might not need it anymore
+!git clone https://github.com/ewiger/yamlmatlab.git  
+
 addpath(genpath('./helpDocMd/src'))
 addpath(genpath('./yamlmatlab'))
 !git clone https://github.com/shimming-toolbox/shimming-toolbox.org.git
 !git clone https://github.com/shimming-toolbox/shimming-toolbox.git
-
+addpath(genpath('./shimming-toolbox'))
 
 %% branch
-% Look if there is a remote branch called update-website
-% - If yes, delete it
-% create a branch called update-website
-% git checkout -b update-website
+% Go into branch update-website
+cd shimming-toolbox.org
+% Create branch called update-website, if it already exists, wont change
+% branch
+!git checkout -b update-website
+% go into it if it previously failed, if not then it does not do anything
+!git checkout update-website
+cd ..
 %% API doc
-% delete current shimming-toolbox.org/docs/contributing/API-documentation/*
-% rmdir ./shimming-toolbox.org/docs/contributing/API-documentation s
-% !mkdir ./shimming-toolbox.org/docs/contributing/API-documentation
+% delete current shimming-toolbox.org/docs/contributing/api-documentation/*
+!rm -r ./shimming-toolbox.org/docs/contributing/api_documentation
+!mkdir ./shimming-toolbox.org/docs/contributing/api_documentation
 
 % Generate APIDoc to shimming-toolbox.org/docs/contributing/API-documentation/*
-% Idea, Add Ui, tests, misc... seperatly
-% Documentor('./shimming-toolbox/Img') Currently not working
+src = './shimming-toolbox';
+outputPath = './shimming-toolbox.org/docs/contributing/api_documentation';
 
-% Delete then add mkdocs.yml APIdoc navigation
+src = Documentor.findfiles( src );
+
+% Remove files not working
+src = src(~contains(src,'shimming-toolbox/Coils/Shim_Siemens/Shim_Prisma/ShimOpt_Prisma.m'));
+src = src(~contains(src,'shimming-toolbox/Coils/Shim_Siemens/Shim_Prisma/Shim_HGM_Prisma/ShimOpt_HGM_Prisma.m'));
+src = src(~contains(src,'shimming-toolbox/Coils/Shim_Siemens/Shim_Prisma/Shim_IUGM_Prisma_fit/ShimOpt_IUGM_Prisma_fit.m'));
+src = src(~contains(src,'shimming-toolbox/Ui/ShimUse.m'));
+
+% Remove files not to be documented
+src = src(~contains(src,'shimming-toolbox/tests'));
+
+% Call documentor
+Options.outputDir = './shimming-toolbox.org/docs/contributing/api_documentation';
+Dr = Documentor( src , Options ) ;
+
+% Generate documentation
+Dr.printdoc() ;
+
+% Update mkDocs.yml APIdoc navigation automatically using functions from
+% @Documentor.printYml
 
 
 %% README, LICENSE, etc
@@ -46,6 +72,8 @@ addpath(genpath('./yamlmatlab'))
 % -- Other Ressources (Depending on if it's already in shimming-toolbox.org)
 % - delete them from shimming-toolbox.org
 % - Add them to shimming-toolbox.org
+
+% manual?
 
 %% branch
 % cd shimming-toolbox.org
@@ -68,11 +96,12 @@ filepath = './shimming-toolbox.org/mkdocs.yml';
 configFile = yaml.ReadYaml(filepath);
 %% Write Yaml file
 % yaml stores the config file a a data structure, to do so, it needs to
-% remove the spacings from of certain nav fields. The following function
+% remove the spacings from certain nav fields. The following function
 % finds those fields and adds the spaces back
-yaml.WriteYaml(filepath, configFile);
+yaml.WriteYaml('./shimming-toolbox.org/mkdocs2.yml', configFile);
 keywords = {'Getting Started'; 'API Documentation'; 'Other Ressources'};
-correctSpacings(filepath, keywords)
+correctSpacings('./shimming-toolbox.org/mkdocs2.yml', keywords)
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % functions
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -93,7 +122,6 @@ function correctSpacings(filepath, keywords)
         % In a line, look for each keywords
         for iKeyword = 1:numel(keywords)
              if(~isempty(strfind(tline,noSpacing{iKeyword})))
-                 
                  
                  keywordStarts = strfind(tline,noSpacing{iKeyword}) - 1;
                  
