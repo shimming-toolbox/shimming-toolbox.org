@@ -2,8 +2,8 @@
 
 !!! warning
     This website is a work in progress. 
-    
-<img src="https://github.com/shimming-toolbox/shimming-toolbox.org/blob/master/docs/img/shimming_toolbox_logo.png">
+
+![logo](img/shimming_toolbox_logo.png)
 
 ## Overview
 
