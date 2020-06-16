@@ -18,180 +18,180 @@ nav:
 #- 'Support': 'support.md'
 - 'Contributing':
   - 'Guidelines': 'contributing/contributing_guidelines.md'
-  - 'API documentation':
-    - 'Aux hardware':
-      - 'RespiratoryProbe':
-        - 'CapacitiveProbe':
-          - 'new_respiratory_probe_tracking_filtered': 'contributing/api_documentation/aux_hardware/RespiratoryProbe/CapacitiveProbe/new_respiratory_probe_tracking_filtered.md'
-          - 'new_respiratory_probe_tracking': 'contributing/api_documentation/aux_hardware/RespiratoryProbe/CapacitiveProbe/new_respiratory_probe_tracking.md'
-        - 'PressureProbe':
-          - 'probe': 'contributing/api_documentation/aux_hardware/RespiratoryProbe/PressureProbe/probe.md'
-        - 'filter_signal': 'contributing/api_documentation/aux_hardware/RespiratoryProbe/filter_signal.md'
-        - 'get_capacitive_probe_signal': 'contributing/api_documentation/aux_hardware/RespiratoryProbe/get_capacitive_probe_signal.md'
-        - 'ProbeTracking': 'contributing/api_documentation/aux_hardware/RespiratoryProbe/ProbeTracking.md'
-        - 'tracking_CapacitiveProbe': 'contributing/api_documentation/aux_hardware/RespiratoryProbe/tracking_CapacitiveProbe.md'
-    - 'Coils':
-      - 'Shim_Greg':
-        - 'ShimCom_Greg': 'contributing/api_documentation/Coils/Shim_Greg/ShimCom_Greg.md'
-        - 'ShimOpt_Greg': 'contributing/api_documentation/Coils/Shim_Greg/ShimOpt_Greg.md'
-        - 'ShimSpecs_Greg': 'contributing/api_documentation/Coils/Shim_Greg/ShimSpecs_Greg.md'
-      - 'Shim_Rriyan':
-        - 'ShimCom_Rriyan': 'contributing/api_documentation/Coils/Shim_Rriyan/ShimCom_Rriyan.md'
-        - 'ShimOpt_Rriyan': 'contributing/api_documentation/Coils/Shim_Rriyan/ShimOpt_Rriyan.md'
-        - 'ShimSpecs_Rriyan': 'contributing/api_documentation/Coils/Shim_Rriyan/ShimSpecs_Rriyan.md'
-      - 'Shim_Siemens':
-        - 'Shim_Prisma':
-#          - 'Shim_HGM_Prisma':
-#            - 'ShimSpecs_HGM_Prisma': 'contributing/api_documentation/Coils/Shim_Siemens/Shim_Prisma/Shim_HGM_PrismaShimSpecs_HGM_Prisma.md'
-#          - 'Shim_IUGM_Prisma_fit':
-#            - 'ShimSpecs_IUGM_Prisma_fit': 'contributing/api_documentation/Coils/Shim_Siemens/Shim_Prisma/Shim_IUGM_Prisma_fitShimSpecs_IUGM_Prisma_fit.md'
-          - 'ShimSpecs_Prisma': 'contributing/api_documentation/Coils/Shim_Siemens/Shim_Prisma/ShimSpecs_Prisma.md'
-      - 'Shim_Sim':
-        - 'ShimOpt_SphericalHarmonics':
-          - 'ShimOpt_SphericalHarmonics': 'contributing/api_documentation/Coils/Shim_Sim/ShimOpt_SphericalHarmonics/ShimOpt_SphericalHarmonics.md'
-        - 'ShimOpt_Sim': 'contributing/api_documentation/Coils/Shim_Sim/ShimOpt_Sim.md'
-        - 'ShimSpecs_Sim': 'contributing/api_documentation/Coils/Shim_Sim/ShimSpecs_Sim.md'
-      - 'Shim_Template':
-        - 'ShimCom': 'contributing/api_documentation/Coils/Shim_Template/ShimCom.md'
-        - 'ShimOpt': 'contributing/api_documentation/Coils/Shim_Template/ShimOpt.md'
-        - 'ShimSpecs': 'contributing/api_documentation/Coils/Shim_Template/ShimSpecs.md'
-      - 'Shim revC':
-        - 'ShimCom_revC': 'contributing/api_documentation/Coils/Shim_revC/ShimCom_revC.md'
-        - 'ShimOpt_revC': 'contributing/api_documentation/Coils/Shim_revC/ShimOpt_revC.md'
-        - 'ShimSpecs_revC': 'contributing/api_documentation/Coils/Shim_revC/ShimSpecs_revC.md'
-    - 'example':
-      - 'createfieldmap': 'contributing/api_documentation/example/createfieldmap.md'
-      - 'demozshim': 'contributing/api_documentation/example/demozshim.md'
-      - 'eval_acdc_74': 'contributing/api_documentation/example/eval_acdc_74.md'
-      - 'GuidedFloodFill': 'contributing/api_documentation/example/GuidedFloodFill.md'
-      - 'PhaseDerivativeVariance': 'contributing/api_documentation/example/PhaseDerivativeVariance.md'
-      - 'QualityGuidedUnwrap2D_EAO': 'contributing/api_documentation/example/QualityGuidedUnwrap2D_EAO.md'
-      - 'realtime_zshim': 'contributing/api_documentation/example/realtime_zshim.md'
-      - 'shimdemo': 'contributing/api_documentation/example/shimdemo.md'
-      - 'experiment': 'contributing/api_documentation/example/experiment.md'
-    - 'external':
-      - 'altmany-export_fig-4c015d5':
-        - 'append_pdfs': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/append_pdfs.md'
-        - 'copyfig': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/copyfig.md'
-        - 'crop_borders': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/crop_borders.md'
-        - 'eps2pdf': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/eps2pdf.md'
-        - 'export_fig': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/export_fig.md'
-        - 'fix_lines.md': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/fix_lines.md'
-        - 'ghostscript': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/ghostscript.md'
-        - 'im2gif.md': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/im2gif.md'
-        - 'isolate_axes': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/isolate_axes.md'
-        - 'pdf2eps': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/pdf2eps.md'
-        - 'pdftops': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/pdftops.md'
-        - 'print2array': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/print2array.md'
-        - 'print2eps': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/print2eps.md'
-        - 'read_write_entire_textfile': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/read_write_entire_textfile.md'
-        - 'user_string': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/user_string.md'
-        - 'using_hg2': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/using_hg2.md'
-      - 'bpfilt':
-        - 'bpfilt': 'contributing/api_documentation/external/bpfilt/bpfilt.md'
-      - 'dicm2nii':
-        - 'dicm_dict': 'contributing/api_documentation/external/dicm2nii/dicm_dict.md'
-        - 'dicm_hdr': 'contributing/api_documentation/external/dicm2nii/dicm_hdr.md'
-        - 'dicm_img': 'contributing/api_documentation/external/dicm2nii/dicm_img.md'
-        - 'dicm2nii': 'contributing/api_documentation/external/dicm2nii/dicm2nii.md'
-        - 'nii_tool': 'contributing/api_documentation/external/dicm2nii/nii_tool.md'
-        - 'rename_dicm': 'contributing/api_documentation/external/dicm2nii/rename_dicm.md'
-        - 'sort_dicm': 'contributing/api_documentation/external/dicm2nii/sort_dicm.md'
-      - 'NIFTI':
-        - 'affine': 'contributing/api_documentation/external/NIFTI/affine.md'
-        - 'bipolar': 'contributing/api_documentation/external/NIFTI/bipolar.md'
-        - 'bresenham_line3d': 'contributing/api_documentation/external/NIFTI/bresenham_line3d.md'
-        - 'collapse_nii_scan': 'contributing/api_documentation/external/NIFTI/collapse_nii_scan.md'
-        - 'expand_nii_scan': 'contributing/api_documentation/external/NIFTI/expand_nii_scan.md'
-        - 'extra_nii_hdr': 'contributing/api_documentation/external/NIFTI/extra_nii_hdr.md'
-        - 'flip_lr': 'contributing/api_documentation/external/NIFTI/flip_lr.md'
-        - 'get_nii_frame': 'contributing/api_documentation/external/NIFTI/get_nii_frame.md'
-        - 'load_nii_ext': 'contributing/api_documentation/external/NIFTI/load_nii_ext.md'
-        - 'load_nii_hdr': 'contributing/api_documentation/external/NIFTI/load_nii_hdr.md'
-        - 'load_nii_img': 'contributing/api_documentation/external/NIFTI/load_nii_img.md'
-        - 'load_nii': 'contributing/api_documentation/external/NIFTI/load_nii.md'
-        - 'load_untouch_header_only': 'contributing/api_documentation/external/NIFTI/load_untouch_header_only.md'
-        - 'load_untouch_nii_hdr': 'contributing/api_documentation/external/NIFTI/load_untouch_nii_hdr.md'
-        - 'load_untouch_nii_img': 'contributing/api_documentation/external/NIFTI/load_untouch_nii_img.md'
-        - 'load_untouch_nii': 'contributing/api_documentation/external/NIFTI/load_untouch_nii.md'
-        - 'load_untouch0_nii_hdr': 'contributing/api_documentation/external/NIFTI/load_untouch0_nii_hdr.md'
-        - 'make_ana': 'contributing/api_documentation/external/NIFTI/make_ana.md'
-        - 'make_nii': 'contributing/api_documentation/external/NIFTI/make_nii.md'
-        - 'mat_into_hdr': 'contributing/api_documentation/external/NIFTI/mat_into_hdr.md'
-        - 'reslice_nii': 'contributing/api_documentation/external/NIFTI/reslice_nii.md'
-        - 'rri_file_menu': 'contributing/api_documentation/external/NIFTI/rri_file_menu.md'
-        - 'rri_orient_ui': 'contributing/api_documentation/external/NIFTI/rri_orient_ui.md'
-        - 'rri_orient': 'contributing/api_documentation/external/NIFTI/rri_orient.md'
-        - 'rri_select_file': 'contributing/api_documentation/external/NIFTI/rri_select_file.md'
-        - 'rri_xhair': 'contributing/api_documentation/external/NIFTI/rri_xhair.md'
-        - 'rri_zoom_menu': 'contributing/api_documentation/external/NIFTI/rri_zoom_menu.md'
-        - 'save_nii_ext': 'contributing/api_documentation/external/NIFTI/save_nii_ext.md'
-        - 'save_nii_hdr': 'contributing/api_documentation/external/NIFTI/save_nii_hdr.md'
-        - 'save_nii': 'contributing/api_documentation/external/NIFTI/save_nii.md'
-        - 'save_untouch_nii_hdr': 'contributing/api_documentation/external/NIFTI/save_untouch_nii_hdr.md'
-        - 'save_untouch_nii': 'contributing/api_documentation/external/NIFTI/save_untouch_nii.md'
-        - 'save_untouch_slice': 'contributing/api_documentation/external/NIFTI/save_untouch_slice.md'
-        - 'save_untouch0_nii_hdr': 'contributing/api_documentation/external/NIFTI/save_untouch0_nii_hdr.md'
-        - 'unxform_nii': 'contributing/api_documentation/external/NIFTI/unxform_nii.md'
-        - 'verify_nii_ext': 'contributing/api_documentation/external/NIFTI/verify_nii_ext.md'
-        - 'view_nii_menu': 'contributing/api_documentation/external/NIFTI/view_nii_menu.md'
-        - 'view_nii': 'contributing/api_documentation/external/NIFTI/view_nii.md'
-        - 'xform_nii': 'contributing/api_documentation/external/NIFTI/xform_nii.md'
-      - 'parse-dicom':
-        - 'src':
-          - 'matlab':
-            - 'c_str': 'contributing/api_documentation/external/parse-dicom/src/matlab/c_str.md'
-            - 'mread': 'contributing/api_documentation/external/parse-dicom/src/matlab/mread.md'
-            - 'parse_mrprot': 'contributing/api_documentation/external/parse-dicom/src/matlab/parse_mrprot.md'
-            - 'parse_siemens_shadow': 'contributing/api_documentation/external/parse-dicom/src/matlab/parse_siemens_shadow.md'
-      - 'stoploop':
-        - 'stoploop': 'contributing/api_documentation/external/stoploop/stoploop.md'
-      - 'sunwrap':
-        - 'sunwrap': 'contributing/api_documentation/external/sunwrap/sunwrap.md'
-      - 'medfilt3': 'contributing/api_documentation/external/medfilt3.md'
-      - 'myisfield': 'contributing/api_documentation/external/myisfield.md'
-    - 'Img':
-      - 'misc':
-        - 'dicominfosiemens': 'contributing/api_documentation/Img/misc/dicominfosiemens.md'
-      - 'FieldEval': 'contributing/api_documentation/Img/FieldEval.md'
-      - 'MaRdI': 'contributing/api_documentation/Img/MaRdI.md'
-      - 'read_nii': 'contributing/api_documentation/Img/read_nii.md'
-    - 'misc':
-      - 'assignifempty': 'contributing/api_documentation/misc/assignifempty.md'
-      - 'bet': 'contributing/api_documentation/misc/bet.md'
-      - 'cgls': 'contributing/api_documentation/misc/cgls.md'
-      - 'createdifferenceoperators': 'contributing/api_documentation/misc/createdifferenceoperators.md'
-      - 'createellipsoid': 'contributing/api_documentation/misc/createellipsoid.md'
-      - 'croparray': 'contributing/api_documentation/misc/croparray.md'
-      - 'dilater.md': 'contributing/api_documentation/misc/dilater.md'
-      - 'fftc': 'contributing/api_documentation/misc/fftc.md'
-      - 'fslview': 'contributing/api_documentation/misc/fslview.md'
-      - 'getfilecreationtime': 'contributing/api_documentation/misc/getfilecreationtime.md'
-      - 'ifftc': 'contributing/api_documentation/misc/ifftc.md'
-      - 'lapunwrap': 'contributing/api_documentation/misc/lapunwrap.md'
-      - 'makekspace': 'contributing/api_documentation/misc/makekspace.md'
-      - 'makeodd': 'contributing/api_documentation/misc/makeodd.md'
-      - 'myisfieldfilled': 'contributing/api_documentation/misc/myisfieldfilled.md'
-      - 'nii': 'contributing/api_documentation/misc/nii.md'
-      - 'prelude': 'contributing/api_documentation/misc/prelude.md'
-      - 'resharp': 'contributing/api_documentation/misc/resharp.md'
-      - 'savefigure': 'contributing/api_documentation/misc/savefigure.md'
-      - 'shaver': 'contributing/api_documentation/misc/shaver.md'
-      - 'shimbindir': 'contributing/api_documentation/misc/shimbindir.md'
-      - 'sortdicoms': 'contributing/api_documentation/misc/sortdicoms.md'
-      - 'unwrap3d': 'contributing/api_documentation/misc/unwrap3d.md'
-      - 'isOctave': 'contributing/api_documentation/misc/isOctave.md'
-    - 'Ui':
-      - 'ShimGui':
-        - 'ShimGui': 'contributing/api_documentation/Ui/ShimGui/ShimGui.md'
-    - '+imutils':
-      - 'get_nii_coordinates': 'contributing/api_documentation/+imutils/get_nii_coordinates.md'
-      - 'read_nii': 'contributing/api_documentation/+imutils/read_nii.md'
-      - 'dicom_to_nifti': 'contributing/api_documentation/+imutils/dicom_to_nifti.md'
-      - 'load_niftis': 'contributing/api_documentation/+imutils/load_niftis.md'
+#   - 'API documentation':
+#     - 'Aux hardware':
+#       - 'RespiratoryProbe':
+#         - 'CapacitiveProbe':
+#           - 'new_respiratory_probe_tracking_filtered': 'contributing/api_documentation/aux_hardware/RespiratoryProbe/CapacitiveProbe/new_respiratory_probe_tracking_filtered.md'
+#           - 'new_respiratory_probe_tracking': 'contributing/api_documentation/aux_hardware/RespiratoryProbe/CapacitiveProbe/new_respiratory_probe_tracking.md'
+#         - 'PressureProbe':
+#           - 'probe': 'contributing/api_documentation/aux_hardware/RespiratoryProbe/PressureProbe/probe.md'
+#         - 'filter_signal': 'contributing/api_documentation/aux_hardware/RespiratoryProbe/filter_signal.md'
+#         - 'get_capacitive_probe_signal': 'contributing/api_documentation/aux_hardware/RespiratoryProbe/get_capacitive_probe_signal.md'
+#         - 'ProbeTracking': 'contributing/api_documentation/aux_hardware/RespiratoryProbe/ProbeTracking.md'
+#         - 'tracking_CapacitiveProbe': 'contributing/api_documentation/aux_hardware/RespiratoryProbe/tracking_CapacitiveProbe.md'
+#     - 'Coils':
+#       - 'Shim_Greg':
+#         - 'ShimCom_Greg': 'contributing/api_documentation/Coils/Shim_Greg/ShimCom_Greg.md'
+#         - 'ShimOpt_Greg': 'contributing/api_documentation/Coils/Shim_Greg/ShimOpt_Greg.md'
+#         - 'ShimSpecs_Greg': 'contributing/api_documentation/Coils/Shim_Greg/ShimSpecs_Greg.md'
+#       - 'Shim_Rriyan':
+#         - 'ShimCom_Rriyan': 'contributing/api_documentation/Coils/Shim_Rriyan/ShimCom_Rriyan.md'
+#         - 'ShimOpt_Rriyan': 'contributing/api_documentation/Coils/Shim_Rriyan/ShimOpt_Rriyan.md'
+#         - 'ShimSpecs_Rriyan': 'contributing/api_documentation/Coils/Shim_Rriyan/ShimSpecs_Rriyan.md'
+#       - 'Shim_Siemens':
+#         - 'Shim_Prisma':
+# #          - 'Shim_HGM_Prisma':
+# #            - 'ShimSpecs_HGM_Prisma': 'contributing/api_documentation/Coils/Shim_Siemens/Shim_Prisma/Shim_HGM_PrismaShimSpecs_HGM_Prisma.md'
+# #          - 'Shim_IUGM_Prisma_fit':
+# #            - 'ShimSpecs_IUGM_Prisma_fit': 'contributing/api_documentation/Coils/Shim_Siemens/Shim_Prisma/Shim_IUGM_Prisma_fitShimSpecs_IUGM_Prisma_fit.md'
+#           - 'ShimSpecs_Prisma': 'contributing/api_documentation/Coils/Shim_Siemens/Shim_Prisma/ShimSpecs_Prisma.md'
+#       - 'Shim_Sim':
+#         - 'ShimOpt_SphericalHarmonics':
+#           - 'ShimOpt_SphericalHarmonics': 'contributing/api_documentation/Coils/Shim_Sim/ShimOpt_SphericalHarmonics/ShimOpt_SphericalHarmonics.md'
+#         - 'ShimOpt_Sim': 'contributing/api_documentation/Coils/Shim_Sim/ShimOpt_Sim.md'
+#         - 'ShimSpecs_Sim': 'contributing/api_documentation/Coils/Shim_Sim/ShimSpecs_Sim.md'
+#       - 'Shim_Template':
+#         - 'ShimCom': 'contributing/api_documentation/Coils/Shim_Template/ShimCom.md'
+#         - 'ShimOpt': 'contributing/api_documentation/Coils/Shim_Template/ShimOpt.md'
+#         - 'ShimSpecs': 'contributing/api_documentation/Coils/Shim_Template/ShimSpecs.md'
+#       - 'Shim revC':
+#         - 'ShimCom_revC': 'contributing/api_documentation/Coils/Shim_revC/ShimCom_revC.md'
+#         - 'ShimOpt_revC': 'contributing/api_documentation/Coils/Shim_revC/ShimOpt_revC.md'
+#         - 'ShimSpecs_revC': 'contributing/api_documentation/Coils/Shim_revC/ShimSpecs_revC.md'
+#     - 'example':
+#       - 'createfieldmap': 'contributing/api_documentation/example/createfieldmap.md'
+#       - 'demozshim': 'contributing/api_documentation/example/demozshim.md'
+#       - 'eval_acdc_74': 'contributing/api_documentation/example/eval_acdc_74.md'
+#       - 'GuidedFloodFill': 'contributing/api_documentation/example/GuidedFloodFill.md'
+#       - 'PhaseDerivativeVariance': 'contributing/api_documentation/example/PhaseDerivativeVariance.md'
+#       - 'QualityGuidedUnwrap2D_EAO': 'contributing/api_documentation/example/QualityGuidedUnwrap2D_EAO.md'
+#       - 'realtime_zshim': 'contributing/api_documentation/example/realtime_zshim.md'
+#       - 'shimdemo': 'contributing/api_documentation/example/shimdemo.md'
+#       - 'experiment': 'contributing/api_documentation/example/experiment.md'
+#     - 'external':
+#       - 'altmany-export_fig-4c015d5':
+#         - 'append_pdfs': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/append_pdfs.md'
+#         - 'copyfig': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/copyfig.md'
+#         - 'crop_borders': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/crop_borders.md'
+#         - 'eps2pdf': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/eps2pdf.md'
+#         - 'export_fig': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/export_fig.md'
+#         - 'fix_lines.md': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/fix_lines.md'
+#         - 'ghostscript': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/ghostscript.md'
+#         - 'im2gif.md': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/im2gif.md'
+#         - 'isolate_axes': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/isolate_axes.md'
+#         - 'pdf2eps': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/pdf2eps.md'
+#         - 'pdftops': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/pdftops.md'
+#         - 'print2array': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/print2array.md'
+#         - 'print2eps': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/print2eps.md'
+#         - 'read_write_entire_textfile': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/read_write_entire_textfile.md'
+#         - 'user_string': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/user_string.md'
+#         - 'using_hg2': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/using_hg2.md'
+#       - 'bpfilt':
+#         - 'bpfilt': 'contributing/api_documentation/external/bpfilt/bpfilt.md'
+#       - 'dicm2nii':
+#         - 'dicm_dict': 'contributing/api_documentation/external/dicm2nii/dicm_dict.md'
+#         - 'dicm_hdr': 'contributing/api_documentation/external/dicm2nii/dicm_hdr.md'
+#         - 'dicm_img': 'contributing/api_documentation/external/dicm2nii/dicm_img.md'
+#         - 'dicm2nii': 'contributing/api_documentation/external/dicm2nii/dicm2nii.md'
+#         - 'nii_tool': 'contributing/api_documentation/external/dicm2nii/nii_tool.md'
+#         - 'rename_dicm': 'contributing/api_documentation/external/dicm2nii/rename_dicm.md'
+#         - 'sort_dicm': 'contributing/api_documentation/external/dicm2nii/sort_dicm.md'
+#       - 'NIFTI':
+#         - 'affine': 'contributing/api_documentation/external/NIFTI/affine.md'
+#         - 'bipolar': 'contributing/api_documentation/external/NIFTI/bipolar.md'
+#         - 'bresenham_line3d': 'contributing/api_documentation/external/NIFTI/bresenham_line3d.md'
+#         - 'collapse_nii_scan': 'contributing/api_documentation/external/NIFTI/collapse_nii_scan.md'
+#         - 'expand_nii_scan': 'contributing/api_documentation/external/NIFTI/expand_nii_scan.md'
+#         - 'extra_nii_hdr': 'contributing/api_documentation/external/NIFTI/extra_nii_hdr.md'
+#         - 'flip_lr': 'contributing/api_documentation/external/NIFTI/flip_lr.md'
+#         - 'get_nii_frame': 'contributing/api_documentation/external/NIFTI/get_nii_frame.md'
+#         - 'load_nii_ext': 'contributing/api_documentation/external/NIFTI/load_nii_ext.md'
+#         - 'load_nii_hdr': 'contributing/api_documentation/external/NIFTI/load_nii_hdr.md'
+#         - 'load_nii_img': 'contributing/api_documentation/external/NIFTI/load_nii_img.md'
+#         - 'load_nii': 'contributing/api_documentation/external/NIFTI/load_nii.md'
+#         - 'load_untouch_header_only': 'contributing/api_documentation/external/NIFTI/load_untouch_header_only.md'
+#         - 'load_untouch_nii_hdr': 'contributing/api_documentation/external/NIFTI/load_untouch_nii_hdr.md'
+#         - 'load_untouch_nii_img': 'contributing/api_documentation/external/NIFTI/load_untouch_nii_img.md'
+#         - 'load_untouch_nii': 'contributing/api_documentation/external/NIFTI/load_untouch_nii.md'
+#         - 'load_untouch0_nii_hdr': 'contributing/api_documentation/external/NIFTI/load_untouch0_nii_hdr.md'
+#         - 'make_ana': 'contributing/api_documentation/external/NIFTI/make_ana.md'
+#         - 'make_nii': 'contributing/api_documentation/external/NIFTI/make_nii.md'
+#         - 'mat_into_hdr': 'contributing/api_documentation/external/NIFTI/mat_into_hdr.md'
+#         - 'reslice_nii': 'contributing/api_documentation/external/NIFTI/reslice_nii.md'
+#         - 'rri_file_menu': 'contributing/api_documentation/external/NIFTI/rri_file_menu.md'
+#         - 'rri_orient_ui': 'contributing/api_documentation/external/NIFTI/rri_orient_ui.md'
+#         - 'rri_orient': 'contributing/api_documentation/external/NIFTI/rri_orient.md'
+#         - 'rri_select_file': 'contributing/api_documentation/external/NIFTI/rri_select_file.md'
+#         - 'rri_xhair': 'contributing/api_documentation/external/NIFTI/rri_xhair.md'
+#         - 'rri_zoom_menu': 'contributing/api_documentation/external/NIFTI/rri_zoom_menu.md'
+#         - 'save_nii_ext': 'contributing/api_documentation/external/NIFTI/save_nii_ext.md'
+#         - 'save_nii_hdr': 'contributing/api_documentation/external/NIFTI/save_nii_hdr.md'
+#         - 'save_nii': 'contributing/api_documentation/external/NIFTI/save_nii.md'
+#         - 'save_untouch_nii_hdr': 'contributing/api_documentation/external/NIFTI/save_untouch_nii_hdr.md'
+#         - 'save_untouch_nii': 'contributing/api_documentation/external/NIFTI/save_untouch_nii.md'
+#         - 'save_untouch_slice': 'contributing/api_documentation/external/NIFTI/save_untouch_slice.md'
+#         - 'save_untouch0_nii_hdr': 'contributing/api_documentation/external/NIFTI/save_untouch0_nii_hdr.md'
+#         - 'unxform_nii': 'contributing/api_documentation/external/NIFTI/unxform_nii.md'
+#         - 'verify_nii_ext': 'contributing/api_documentation/external/NIFTI/verify_nii_ext.md'
+#         - 'view_nii_menu': 'contributing/api_documentation/external/NIFTI/view_nii_menu.md'
+#         - 'view_nii': 'contributing/api_documentation/external/NIFTI/view_nii.md'
+#         - 'xform_nii': 'contributing/api_documentation/external/NIFTI/xform_nii.md'
+#       - 'parse-dicom':
+#         - 'src':
+#           - 'matlab':
+#             - 'c_str': 'contributing/api_documentation/external/parse-dicom/src/matlab/c_str.md'
+#             - 'mread': 'contributing/api_documentation/external/parse-dicom/src/matlab/mread.md'
+#             - 'parse_mrprot': 'contributing/api_documentation/external/parse-dicom/src/matlab/parse_mrprot.md'
+#             - 'parse_siemens_shadow': 'contributing/api_documentation/external/parse-dicom/src/matlab/parse_siemens_shadow.md'
+#       - 'stoploop':
+#         - 'stoploop': 'contributing/api_documentation/external/stoploop/stoploop.md'
+#       - 'sunwrap':
+#         - 'sunwrap': 'contributing/api_documentation/external/sunwrap/sunwrap.md'
+#       - 'medfilt3': 'contributing/api_documentation/external/medfilt3.md'
+#       - 'myisfield': 'contributing/api_documentation/external/myisfield.md'
+#     - 'Img':
+#       - 'misc':
+#         - 'dicominfosiemens': 'contributing/api_documentation/Img/misc/dicominfosiemens.md'
+#       - 'FieldEval': 'contributing/api_documentation/Img/FieldEval.md'
+#       - 'MaRdI': 'contributing/api_documentation/Img/MaRdI.md'
+#       - 'read_nii': 'contributing/api_documentation/Img/read_nii.md'
+#     - 'misc':
+#       - 'assignifempty': 'contributing/api_documentation/misc/assignifempty.md'
+#       - 'bet': 'contributing/api_documentation/misc/bet.md'
+#       - 'cgls': 'contributing/api_documentation/misc/cgls.md'
+#       - 'createdifferenceoperators': 'contributing/api_documentation/misc/createdifferenceoperators.md'
+#       - 'createellipsoid': 'contributing/api_documentation/misc/createellipsoid.md'
+#       - 'croparray': 'contributing/api_documentation/misc/croparray.md'
+#       - 'dilater.md': 'contributing/api_documentation/misc/dilater.md'
+#       - 'fftc': 'contributing/api_documentation/misc/fftc.md'
+#       - 'fslview': 'contributing/api_documentation/misc/fslview.md'
+#       - 'getfilecreationtime': 'contributing/api_documentation/misc/getfilecreationtime.md'
+#       - 'ifftc': 'contributing/api_documentation/misc/ifftc.md'
+#       - 'lapunwrap': 'contributing/api_documentation/misc/lapunwrap.md'
+#       - 'makekspace': 'contributing/api_documentation/misc/makekspace.md'
+#       - 'makeodd': 'contributing/api_documentation/misc/makeodd.md'
+#       - 'myisfieldfilled': 'contributing/api_documentation/misc/myisfieldfilled.md'
+#       - 'nii': 'contributing/api_documentation/misc/nii.md'
+#       - 'prelude': 'contributing/api_documentation/misc/prelude.md'
+#       - 'resharp': 'contributing/api_documentation/misc/resharp.md'
+#       - 'savefigure': 'contributing/api_documentation/misc/savefigure.md'
+#       - 'shaver': 'contributing/api_documentation/misc/shaver.md'
+#       - 'shimbindir': 'contributing/api_documentation/misc/shimbindir.md'
+#       - 'sortdicoms': 'contributing/api_documentation/misc/sortdicoms.md'
+#       - 'unwrap3d': 'contributing/api_documentation/misc/unwrap3d.md'
+#       - 'isOctave': 'contributing/api_documentation/misc/isOctave.md'
+#     - 'Ui':
+#       - 'ShimGui':
+#         - 'ShimGui': 'contributing/api_documentation/Ui/ShimGui/ShimGui.md'
+#     - '+imutils':
+#       - 'get_nii_coordinates': 'contributing/api_documentation/+imutils/get_nii_coordinates.md'
+#       - 'read_nii': 'contributing/api_documentation/+imutils/read_nii.md'
+#       - 'dicom_to_nifti': 'contributing/api_documentation/+imutils/dicom_to_nifti.md'
+#       - 'load_niftis': 'contributing/api_documentation/+imutils/load_niftis.md'
 #- 'Other ressources':
 #  - 'Hardware':
 #    - 'Description': 'other-ressources/hardware/description.md'
 #    - 'Assembly': 'other-ressources/hardware/assembly.md'
-- 'Contributors': 'contributors.md'
-- 'License': 'license.md'
+- Contributors: contributors.md
+- License: license.md
