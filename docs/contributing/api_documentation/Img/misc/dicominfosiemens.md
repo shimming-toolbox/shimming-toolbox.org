@@ -18,10 +18,6 @@ __ETC__
 See also
 dicominfo, parse_siemens_shadow
 
-    Other functions named dicominfosiemens
-
-       MrdiIo/dicominfosiemens
-
 
 ### Attributes
 
