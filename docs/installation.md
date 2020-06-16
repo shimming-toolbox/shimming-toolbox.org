@@ -9,31 +9,24 @@ Before running this software you will need to install the following dependencies
 
 To install, download (or `git clone`) this repository and add this folder (with sub-folders) to the Matlab path.
 
+Start Matlab via the Terminal in order to load the shell environment variable that will be needed to launch UNIX-based software (e.g. FSL Prelude).
+
+!!! note
+    For the command line start, MATLAB also needs to exist within the system path, e.g. For MacOS, add the following lines (adapted to refer to your version of MATLAB) to ~/.bash_profile
+
+    export PATH=$PATH:/Applications/MATLAB_R2020a.app/bin/
+
+<!-- TODO: update
 Create the folder '~/Matlab/shimming/' and copy into it the contents [here](https://drive.google.com/open?id=15mZNpsuuNweMUO6H2iWdf5DxA4sQ_aYR)
+-->
 
-For certain features (e.g. recording from a respiratory sensor in "daemon mode"),
-the Matlab path should be configured automatically at session start-up by adding the following lines to '~/startup.m'
-(create the file if it does not exist):
+After Matlab has started, add update the environment to access all the functions by running:
+~~~
+cd <PATH_SHIMMINGTOOLBOX>
+startup.m
+~~~
 
-```
-% Change ~/Code/shimming-toolbox/ to wherever the repository was downloaded/cloned:
-PATH_SHIMMINGTOOLBOX = '~/Code/shimming-toolbox/' ;
-addpath( genpath( PATH_SHIMMINGTOOLBOX ) ) ;
-```
-
-For "daemon mode" to work, the MATLAB session must be started from the command line, and from the home folder, e.g.:
-
-```
-user@polymtl ~ $ matlab &
-```
-
-For the command line start, MATLAB also needs to exist within the system path, e.g. For MacOS, add the following lines (adapted to refer to your version of MATLAB) to ~/.bash_profile
-
-```
-# add MATLAB path
-export PATH=$PATH:/Applications/MATLAB_R2020a.app/bin/
-```
-
+<!--
 *For phase unwrapping:*
 
-To use the optional Abdul-Rahman 3D phase unwrapper, binaries must be compiled from the source code found in /external/source/
+To use the optional Abdul-Rahman 3D phase unwrapper, binaries must be compiled from the source code found in /external/source/ -->
