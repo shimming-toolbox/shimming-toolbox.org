@@ -52,33 +52,53 @@ Author::ryan.topfer@polymtl.ca
     Documentation for ShimOpt_Sim
        doc ShimOpt_Sim
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-__ATTRIBUTES__
-
-
-<table>
-<table border=1><tr><th>Hidden</th><th>Sealed</th><th>Abstract</th><th>Enumeration</th><th>ConstructOnLoad</th><th>HandleCompatible</th><th>RestrictsSubclassing</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>true</td><td>false</td></tr>
-</table>
+| Attribute            | Value |
+|:--------------------:|:-----:|
+| Hidden               | false |
+| Sealed               | false |
+| Abstract             | false |
+| Enumeration          | false |
+| ConstructOnLoad      | false |
+| HandleCompatible     | true  |
+| RestrictsSubclassing | false |
 
 - InferiorClasses : [N/A] 
 - ContainingPackage : [N/A] 
 - EventList : [N/A] 
 - EnumerationMemberList : [N/A] 
 - Superclasses: ShimOpt
+ 
+</details>
 
 - - -
 ## Properties
 
-
+ 
+-----
+ 
 ### pumcin
 
 **Synopsis:** _ShimOpt_Sim/pumcin is a property._
 
-<table>
-<table border=1><tr><th>Dependent</th><th>Constant</th><th>Abstract</th><th>Transient</th><th>Hidden</th><th>GetObservable</th><th>SetObservable</th><th>AbortSet</th><th>NonCopyable</th><th>HasDefault</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
+| Attribute     | Value |
+|:-------------:|:-----:|
+| Dependent     | false |
+| Constant      | false |
+| Abstract      | false |
+| Transient     | false |
+| Hidden        | false |
+| GetObservable | false |
+| SetObservable | false |
+| AbortSet      | false |
+| NonCopyable   | false |
+| HasDefault    | false |
 
 - GetAccess : public
 - SetAccess : public
@@ -88,15 +108,30 @@ __ATTRIBUTES__
 - DefaultValue : 
 - Validation : [N/A] 
 - DefiningClass : ShimOpt_Sim
-
+ 
+</details>
+ 
+-----
+ 
 ### Params
 
 **Synopsis:** _ShimOpt_Sim/Params is a property._
 
-<table>
-<table border=1><tr><th>Dependent</th><th>Constant</th><th>Abstract</th><th>Transient</th><th>Hidden</th><th>GetObservable</th><th>SetObservable</th><th>AbortSet</th><th>NonCopyable</th><th>HasDefault</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
+| Attribute     | Value |
+|:-------------:|:-----:|
+| Dependent     | false |
+| Constant      | false |
+| Abstract      | false |
+| Transient     | false |
+| Hidden        | false |
+| GetObservable | false |
+| SetObservable | false |
+| AbortSet      | false |
+| NonCopyable   | false |
+| HasDefault    | false |
 
 - GetAccess : public
 - SetAccess : public
@@ -106,17 +141,32 @@ __ATTRIBUTES__
 - DefaultValue : 
 - Validation : [N/A] 
 - DefiningClass : ShimOpt_Sim
-
+ 
+</details>
+ 
+-----
+ 
 ### Field
 
 **Synopsis:** _- object of type FieldEval_
 
  Field -  object of type FieldEval
 
-<table>
-<table border=1><tr><th>Dependent</th><th>Constant</th><th>Abstract</th><th>Transient</th><th>Hidden</th><th>GetObservable</th><th>SetObservable</th><th>AbortSet</th><th>NonCopyable</th><th>HasDefault</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
+| Attribute     | Value |
+|:-------------:|:-----:|
+| Dependent     | false |
+| Constant      | false |
+| Abstract      | false |
+| Transient     | false |
+| Hidden        | false |
+| GetObservable | false |
+| SetObservable | false |
+| AbortSet      | false |
+| NonCopyable   | false |
+| HasDefault    | false |
 
 - GetAccess : public
 - SetAccess : public
@@ -126,17 +176,32 @@ __ATTRIBUTES__
 - DefaultValue : 
 - Validation : [N/A] 
 - DefiningClass : ShimOpt
-
+ 
+</details>
+ 
+-----
+ 
 ### Model
 
 **Synopsis:** _- Modeled quantities for shimming_
 
  Model -  Modeled quantities for shimming 
 
-<table>
-<table border=1><tr><th>Dependent</th><th>Constant</th><th>Abstract</th><th>Transient</th><th>Hidden</th><th>GetObservable</th><th>SetObservable</th><th>AbortSet</th><th>NonCopyable</th><th>HasDefault</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
+| Attribute     | Value |
+|:-------------:|:-----:|
+| Dependent     | false |
+| Constant      | false |
+| Abstract      | false |
+| Transient     | false |
+| Hidden        | false |
+| GetObservable | false |
+| SetObservable | false |
+| AbortSet      | false |
+| NonCopyable   | false |
+| HasDefault    | false |
 
 - GetAccess : public
 - SetAccess : public
@@ -146,17 +211,32 @@ __ATTRIBUTES__
 - DefaultValue : 
 - Validation : [N/A] 
 - DefiningClass : ShimOpt
-
+ 
+</details>
+ 
+-----
+ 
 ### ShimmedField
 
 **Synopsis:** _- object of type FieldEval_
 
  ShimmedField -  object of type FieldEval 
 
-<table>
-<table border=1><tr><th>Dependent</th><th>Constant</th><th>Abstract</th><th>Transient</th><th>Hidden</th><th>GetObservable</th><th>SetObservable</th><th>AbortSet</th><th>NonCopyable</th><th>HasDefault</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
+| Attribute     | Value |
+|:-------------:|:-----:|
+| Dependent     | false |
+| Constant      | false |
+| Abstract      | false |
+| Transient     | false |
+| Hidden        | false |
+| GetObservable | false |
+| SetObservable | false |
+| AbortSet      | false |
+| NonCopyable   | false |
+| HasDefault    | false |
 
 - GetAccess : public
 - SetAccess : public
@@ -166,17 +246,32 @@ __ATTRIBUTES__
 - DefaultValue : 
 - Validation : [N/A] 
 - DefiningClass : ShimOpt
-
+ 
+</details>
+ 
+-----
+ 
 ### System
 
 **Synopsis:** _-_
 
  System - 
 
-<table>
-<table border=1><tr><th>Dependent</th><th>Constant</th><th>Abstract</th><th>Transient</th><th>Hidden</th><th>GetObservable</th><th>SetObservable</th><th>AbortSet</th><th>NonCopyable</th><th>HasDefault</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
+| Attribute     | Value |
+|:-------------:|:-----:|
+| Dependent     | false |
+| Constant      | false |
+| Abstract      | false |
+| Transient     | false |
+| Hidden        | false |
+| GetObservable | false |
+| SetObservable | false |
+| AbortSet      | false |
+| NonCopyable   | false |
+| HasDefault    | false |
 
 - GetAccess : public
 - SetAccess : public
@@ -186,15 +281,30 @@ __ATTRIBUTES__
 - DefaultValue : 
 - Validation : [N/A] 
 - DefiningClass : ShimOpt
-
+ 
+</details>
+ 
+-----
+ 
 ### Interpolant
 
 **Synopsis:** _ShimOpt/Interpolant is a property._
 
-<table>
-<table border=1><tr><th>Dependent</th><th>Constant</th><th>Abstract</th><th>Transient</th><th>Hidden</th><th>GetObservable</th><th>SetObservable</th><th>AbortSet</th><th>NonCopyable</th><th>HasDefault</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>true</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
+| Attribute     | Value |
+|:-------------:|:-----:|
+| Dependent     | false |
+| Constant      | false |
+| Abstract      | false |
+| Transient     | false |
+| Hidden        | true  |
+| GetObservable | false |
+| SetObservable | false |
+| AbortSet      | false |
+| NonCopyable   | false |
+| HasDefault    | false |
 
 - GetAccess : public
 - SetAccess : public
@@ -204,15 +314,30 @@ __ATTRIBUTES__
 - DefaultValue : 
 - Validation : [N/A] 
 - DefiningClass : ShimOpt
-
+ 
+</details>
+ 
+-----
+ 
 ### img
 
 **Synopsis:** _MaRdI/img is a property._
 
-<table>
-<table border=1><tr><th>Dependent</th><th>Constant</th><th>Abstract</th><th>Transient</th><th>Hidden</th><th>GetObservable</th><th>SetObservable</th><th>AbortSet</th><th>NonCopyable</th><th>HasDefault</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
+| Attribute     | Value |
+|:-------------:|:-----:|
+| Dependent     | false |
+| Constant      | false |
+| Abstract      | false |
+| Transient     | false |
+| Hidden        | false |
+| GetObservable | false |
+| SetObservable | false |
+| AbortSet      | false |
+| NonCopyable   | false |
+| HasDefault    | false |
 
 - GetAccess : public
 - SetAccess : public
@@ -222,15 +347,30 @@ __ATTRIBUTES__
 - DefaultValue : 
 - Validation : [N/A] 
 - DefiningClass : MaRdI
-
+ 
+</details>
+ 
+-----
+ 
 ### Aux
 
 **Synopsis:** _MaRdI/Aux is a property._
 
-<table>
-<table border=1><tr><th>Dependent</th><th>Constant</th><th>Abstract</th><th>Transient</th><th>Hidden</th><th>GetObservable</th><th>SetObservable</th><th>AbortSet</th><th>NonCopyable</th><th>HasDefault</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
+| Attribute     | Value |
+|:-------------:|:-----:|
+| Dependent     | false |
+| Constant      | false |
+| Abstract      | false |
+| Transient     | false |
+| Hidden        | false |
+| GetObservable | false |
+| SetObservable | false |
+| AbortSet      | false |
+| NonCopyable   | false |
+| HasDefault    | false |
 
 - GetAccess : public
 - SetAccess : public
@@ -240,17 +380,32 @@ __ATTRIBUTES__
 - DefaultValue : 
 - Validation : [N/A] 
 - DefiningClass : MaRdI
-
+ 
+</details>
+ 
+-----
+ 
 ### Hdr
 
 **Synopsis:** _- full Siemens DICOM header of 1st img (i.e. Img.img(:,:,1) )_
 
  Hdr -  full Siemens DICOM header of 1st img (i.e. Img.img(:,:,1) )
 
-<table>
-<table border=1><tr><th>Dependent</th><th>Constant</th><th>Abstract</th><th>Transient</th><th>Hidden</th><th>GetObservable</th><th>SetObservable</th><th>AbortSet</th><th>NonCopyable</th><th>HasDefault</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
+| Attribute     | Value |
+|:-------------:|:-----:|
+| Dependent     | false |
+| Constant      | false |
+| Abstract      | false |
+| Transient     | false |
+| Hidden        | false |
+| GetObservable | false |
+| SetObservable | false |
+| AbortSet      | false |
+| NonCopyable   | false |
+| HasDefault    | false |
 
 - GetAccess : public
 - SetAccess : protected
@@ -260,17 +415,32 @@ __ATTRIBUTES__
 - DefaultValue : 
 - Validation : [N/A] 
 - DefiningClass : MaRdI
-
+ 
+</details>
+ 
+-----
+ 
 ### Hdrs
 
 **Synopsis:** _- cell array of (truncated) DICOM headers courtesy of dicominfo()_
 
  Hdrs -  cell array of (truncated) DICOM headers courtesy of dicominfo()
 
-<table>
-<table border=1><tr><th>Dependent</th><th>Constant</th><th>Abstract</th><th>Transient</th><th>Hidden</th><th>GetObservable</th><th>SetObservable</th><th>AbortSet</th><th>NonCopyable</th><th>HasDefault</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
+| Attribute     | Value |
+|:-------------:|:-----:|
+| Dependent     | false |
+| Constant      | false |
+| Abstract      | false |
+| Transient     | false |
+| Hidden        | false |
+| GetObservable | false |
+| SetObservable | false |
+| AbortSet      | false |
+| NonCopyable   | false |
+| HasDefault    | false |
 
 - GetAccess : public
 - SetAccess : protected
@@ -280,17 +450,32 @@ __ATTRIBUTES__
 - DefaultValue : 
 - Validation : [N/A] 
 - DefiningClass : MaRdI
-
+ 
+</details>
+ 
+-----
+ 
 ### Ref
 
 **Synopsis:** _- Reference properties - prior to manipulation_
 
  Ref -  Reference properties - prior to manipulation
 
-<table>
-<table border=1><tr><th>Dependent</th><th>Constant</th><th>Abstract</th><th>Transient</th><th>Hidden</th><th>GetObservable</th><th>SetObservable</th><th>AbortSet</th><th>NonCopyable</th><th>HasDefault</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>true</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
+| Attribute     | Value |
+|:-------------:|:-----:|
+| Dependent     | false |
+| Constant      | false |
+| Abstract      | false |
+| Transient     | false |
+| Hidden        | true  |
+| GetObservable | false |
+| SetObservable | false |
+| AbortSet      | false |
+| NonCopyable   | false |
+| HasDefault    | false |
 
 - GetAccess : public
 - SetAccess : protected
@@ -300,6 +485,8 @@ __ATTRIBUTES__
 - DefaultValue : 
 - Validation : [N/A] 
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 ## Methods
@@ -322,18 +509,24 @@ dBz.
 NOTE
     Img voxels should be isotropically spaced.
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim, Img, Params
 - OutputNames : b1_z
 - DefiningClass : ShimOpt_Sim
+ 
+</details>
 
 ---
 
@@ -349,18 +542,24 @@ Sets Shim.Field
 
 Field is a FieldEval type object with .img in Hz
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim, Field, currents
 - OutputNames : [N/A] 
 - DefiningClass : ShimOpt_Sim
+ 
+</details>
 
 ---
 
@@ -371,18 +570,24 @@ Field is a FieldEval type object with .img in Hz
 
  MATCHCOORDINATESYSTEM
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim, Params
 - OutputNames : dr
 - DefiningClass : ShimOpt_Sim
+ 
+</details>
 
 ---
 
@@ -394,18 +599,24 @@ Field is a FieldEval type object with .img in Hz
 
 centerOfMass = GETCOILCENTEROFMASS( Shim, iChannel )
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim, iChannel
 - OutputNames : centerOfMass
 - DefiningClass : ShimOpt_Sim
+ 
+</details>
 
 ---
 
@@ -417,18 +628,24 @@ centerOfMass = GETCOILCENTEROFMASS( Shim, iChannel )
 
 [] = PLOTCOILARRAY( Shim )
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim, isLabellingCoils
 - OutputNames : [N/A] 
 - DefiningClass : ShimOpt_Sim
+ 
+</details>
 
 ---
 
@@ -446,18 +663,24 @@ is the number of wire segments belonging to that channel.
 Otherwise (nargin == 1) the returned output is a vector of the number of
 wire segments for each channel in the Shim array.
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim, iChannel
 - OutputNames : nWireSegments
 - DefiningClass : ShimOpt_Sim
+ 
+</details>
 
 ---
 
@@ -469,18 +692,24 @@ wire segments for each channel in the Shim array.
 
 nChannels = GETNCHANNELS( Shim )
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim
 - OutputNames : nChannels
 - DefiningClass : ShimOpt_Sim
+ 
+</details>
 
 ---
 
@@ -499,40 +728,50 @@ Params can have the following fields
     .minCorrectionPerChannel
         [default: -.maxCorrectionPerChannel]
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim, Params
 - OutputNames : Corrections
 - DefiningClass : ShimOpt_Sim
+ 
+</details>
 
 ---
 
 
 ### ShimOpt_Sim
 
-**Synopsis**: _- Shim Optimization_ 
+**Synopsis**: _Constructor_ 
 
- SHIMOPT_SIM - Shim Optimization
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Params, Field
 - OutputNames : Shim
 - DefiningClass : ShimOpt_Sim
+ 
+</details>
 
 ---
 
@@ -546,18 +785,24 @@ by the Biot-Savart computation ShimOpt_Sim.generatecoilbfield()
 
 [ Wires ] = GETWIREPATTERN( Shim ) ;
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : protected
 - InputNames : Shim
 - OutputNames : Wires
 - DefiningClass : ShimOpt_Sim
+ 
+</details>
 
 ---
 
@@ -574,18 +819,24 @@ DEFAULT_PATHTOSHIMREFERENCEMAPS = [] ;
 
 DEFAULT_ISINTERPOLATINGREFERENCEMAPS = true ;
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>true</td><td>false</td><td>false</td><td>false</td><td>true</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | true  |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | true  |
 
 - Access : public
 - InputNames : Params
 - OutputNames : Params
 - DefiningClass : ShimOpt_Sim
+ 
+</details>
 
 ---
 
@@ -603,18 +854,24 @@ Please cite:
 Fa-Hsuan Lin, "Magnetic field by Biot-Savart's Law"
 http://maki.bme.ntu.edu.tw/?page_id=333
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>true</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | true  |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : current, X, Y, Z
 - OutputNames : Bx, By, Bz
 - DefiningClass : ShimOpt_Sim
+ 
+</details>
 
 ---
 
@@ -626,18 +883,24 @@ http://maki.bme.ntu.edu.tw/?page_id=333
 
 [iChannelStart, iChannelStop] = GEtCHANNELPUMCININDICES( pumcin )
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>true</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | true  |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : pumcin
 - OutputNames : iChannelStart, iChannelStop
 - DefiningClass : ShimOpt_Sim
+ 
+</details>
 
 ---
 
@@ -696,18 +959,24 @@ Rather than explicitly copying-and-pasting the LIST output for each coil,
 One can turn the AutoCAD log file on with command: LOGFILEON
 +Get the name of the log file with command: LOGFILENAME
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>true</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | true  |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : cadListFilename, dimsToFlip
 - OutputNames : IXYZW
 - DefiningClass : ShimOpt_Sim
+ 
+</details>
 
 ---
 
@@ -716,18 +985,24 @@ One can turn the AutoCAD log file on with command: LOGFILEON
 
 **Synopsis**: _Returns an empty object array of the given size_ 
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>true</td><td>false</td><td>false</td><td>false</td><td>true</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | true  |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | true  |
 
 - Access : public
 - InputNames : varargin
 - OutputNames : E
 - DefiningClass : ShimOpt_Sim
+ 
+</details>
 
 ---
 
@@ -753,18 +1028,24 @@ Correction_Term  | Original
           .        |    .
      Ch.N    [A]   |    0
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim, Corrections
 - OutputNames : T
 - DefiningClass : ShimOpt
+ 
+</details>
 
 ---
 
@@ -776,18 +1057,24 @@ Correction_Term  | Original
 
 [f0, f0Voi, f0VoiShimmed] = OPTIMIZELARMOR( Shim, voi )
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim, voi
 - OutputNames : f0, f0Voi, f0VoiShimmed
 - DefiningClass : ShimOpt
+ 
+</details>
 
 ---
 
@@ -801,18 +1088,24 @@ Correction_Term  | Original
 
 Returns a FieldEval-type object
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim, p
 - OutputNames : PredictedRiro
 - DefiningClass : ShimOpt
+ 
+</details>
 
 ---
 
@@ -833,18 +1126,24 @@ NOTE
     The predictions do not account for the finite spatial support of 
     either field term!
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim
 - OutputNames : PredictedField
 - DefiningClass : ShimOpt
+ 
+</details>
 
 ---
 
@@ -856,18 +1155,24 @@ NOTE
 TEMPORARY FUNCTION FOR SAGITTAL FIELD MAPS:
     --> Decompose global shim voi into axial segments and shim segments individually
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim, Params
 - OutputNames : [N/A] 
 - DefiningClass : ShimOpt
+ 
+</details>
 
 ---
 
@@ -882,18 +1187,24 @@ currents = COMPUTEREALTIMEUPDATE( Shim, p )
 
     currents = Shim.Model.currents + p*Shim.Model.couplingCoefficients ;
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim, p
 - OutputNames : currents
 - DefiningClass : ShimOpt
+ 
+</details>
 
 ---
 
@@ -907,18 +1218,24 @@ shimSupport = GETSHIMSUPPORT( Shim ) ;
     shimSupport is a logical map over the grid (voxel positions) defined by
     Shim.img of where the shim reference maps have well defined values.
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim
 - OutputNames : shimSupport
 - DefiningClass : ShimOpt
+ 
+</details>
 
 ---
 
@@ -933,18 +1250,24 @@ nActiveChannels = GETNACTIVECHANNELS( Shim ) ;
 
 nActiveChannels = size( Shim.img, 4 ) ;
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim
 - OutputNames : nActiveChannels
 - DefiningClass : ShimOpt
+ 
+</details>
 
 ---
 
@@ -957,18 +1280,24 @@ A = GETSHIMOPERATOR( Shim ) ;
 
     where A * vectorOfShimCurrents = shimField
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim
 - OutputNames : A
 - DefiningClass : ShimOpt
+ 
+</details>
 
 ---
 
@@ -985,18 +1314,24 @@ where the VOI is defined by the full 3d array Shim.Field.Model.Riro.Hdr.MaskingI
 
 if b has length nImg, and nVoi is the # of non-zero VOI voxels, then length(M*b)=nVoi.
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim
 - OutputNames : M
 - DefiningClass : ShimOpt
+ 
+</details>
 
 ---
 
@@ -1013,18 +1348,24 @@ where the VOI is defined by the full 3d array Shim.Field.Hdr.MaskingImage
 
 if b has length nImg, and nVoi is the # of non-zero VOI voxels, then length(M*b)=nVoi.
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim
 - OutputNames : M
 - DefiningClass : ShimOpt
+ 
+</details>
 
 ---
 
@@ -1037,18 +1378,24 @@ if b has length nImg, and nVoi is the # of non-zero VOI voxels, then length(M*b)
 
 Calls Shim.getupdateoperator() to set field Shim.Model.updateOperator
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim
 - OutputNames : [N/A] 
 - DefiningClass : ShimOpt
+ 
+</details>
 
 ---
 
@@ -1080,18 +1427,24 @@ The following Params.fields are supported
 .isAuxIncluded
     true || false, account for spatial support of the Shim.Aux system?
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim, Fields, Params
 - OutputNames : mask
 - DefiningClass : ShimOpt
+ 
+</details>
 
 ---
 
@@ -1104,18 +1457,24 @@ UO = GETUPDATEOPERATOR( Shim ) ;
 
     where UO * respiratory_measurement = currentsUpdate
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim
 - OutputNames : UO
 - DefiningClass : ShimOpt
+ 
+</details>
 
 ---
 
@@ -1130,18 +1489,24 @@ Forward projection of the shim correction :
 
 shimCorrection = reshape( Shim.getshimoperator()*correctionCoefficients, Shim.Field.getgridsize() ) ;
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim, correctionCoefficients
 - OutputNames : shimCorrection
 - DefiningClass : ShimOpt
+ 
+</details>
 
 ---
 
@@ -1157,18 +1522,24 @@ Sets Shim.Field.Model.Riro.Hdr.MaskingImage
 mask is a binary image (with the same dimensions as Shim.Field.Model.Riro.img) of
 the desired shim region.
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim, mask
 - OutputNames : [N/A] 
 - DefiningClass : ShimOpt
+ 
+</details>
 
 ---
 
@@ -1184,18 +1555,24 @@ Sets Shim.Field.Hdr.MaskingImage
 mask is a binary image (with the same dimensions as Shim.Field.img) of
 the desired shim region.
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim, mask
 - OutputNames : [N/A] 
 - DefiningClass : ShimOpt
+ 
+</details>
 
 ---
 
@@ -1210,18 +1587,24 @@ Sets Shim.ShimmedField
 
 Field is a FieldEval type object with .img in Hz
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim, Field
 - OutputNames : [N/A] 
 - DefiningClass : ShimOpt
+ 
+</details>
 
 ---
 
@@ -1230,18 +1613,24 @@ Field is a FieldEval type object with .img in Hz
 
 **Synopsis**: _ShimOpt/setdccurrentoffsets is a function._ 
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim, currentsInspired, currentsExpired, pInspired, pExpired
 - OutputNames : [N/A] 
 - DefiningClass : ShimOpt
+ 
+</details>
 
 ---
 
@@ -1250,18 +1639,24 @@ Field is a FieldEval type object with .img in Hz
 
 **Synopsis**: _ShimOpt/setcouplingcoefficients is a function._ 
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim, currentsInspired, currentsExpired, pInspired, pExpired
 - OutputNames : [N/A] 
 - DefiningClass : ShimOpt
+ 
+</details>
 
 ---
 
@@ -1301,18 +1696,24 @@ pressures)
 
 NOTE : Possibly deprecated
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim, Params
 - OutputNames : Params
 - DefiningClass : ShimOpt
+ 
+</details>
 
 ---
 
@@ -1326,18 +1727,24 @@ RESETTOREFERENCE( Shim )
 Returns Shim.img and Shim.Hdr to their original (reference) values (before
 interpolations, cropping etc.)
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim
 - OutputNames : [N/A] 
 - DefiningClass : ShimOpt
+ 
+</details>
 
 ---
 
@@ -1348,18 +1755,24 @@ interpolations, cropping etc.)
 
 clear Shim
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim
 - OutputNames : [N/A] 
 - DefiningClass : ShimOpt
+ 
+</details>
 
 ---
 
@@ -1371,18 +1784,24 @@ clear Shim
 
 ASSESSSHIM( Shim )
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim, voi
 - OutputNames : Results
 - DefiningClass : ShimOpt
+ 
+</details>
 
 ---
 
@@ -1394,18 +1813,24 @@ ASSESSSHIM( Shim )
 
 [ img, Hdr ] = MAPDBDI( Params )
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>true</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | true  |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Params
 - OutputNames : img, Hdr
 - DefiningClass : ShimOpt
+ 
+</details>
 
 ---
 
@@ -1432,18 +1857,24 @@ targetMask, if provided, is a logical array specifying a priority region
 irrespective of the t2*-forecasted signal.
 (i.e. dataWeights( targetMask ) = 1 ;)
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>true</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | true  |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Mag, targetEchoTime, targetMask
 - OutputNames : dataWeights
 - DefiningClass : ShimOpt
+ 
+</details>
 
 ---
 
@@ -1457,18 +1888,24 @@ of their input order (convenient).
 
 [ Field, Params ] = PARSEINPUT( Inputs )
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>true</td><td>false</td><td>false</td><td>false</td><td>true</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | true  |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | true  |
 
 - Access : public
 - InputNames : Inputs
 - OutputNames : Field, Params
 - DefiningClass : ShimOpt
+ 
+</details>
 
 ---
 
@@ -1481,18 +1918,24 @@ Wraps to ShimOpt.mapdbdi( ) and writes output to disk
 
 [ img, Hdr ] = CALIBRATEREFERENCEMAPS( Params )
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>true</td><td>false</td><td>false</td><td>false</td><td>true</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | true  |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | true  |
 
 - Access : public
 - InputNames : Params
 - OutputNames : img, Hdr
 - DefiningClass : ShimOpt
+ 
+</details>
 
 ---
 
@@ -1504,18 +1947,24 @@ Wraps to ShimOpt.mapdbdi( ) and writes output to disk
 
 [ img, Hdr, Interpolant ] = LOADSHIMREFERENCEMAPS( filename )
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>true</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | true  |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : pathToShimReferenceMaps
 - OutputNames : img, Hdr, Interpolant
 - DefiningClass : ShimOpt
+ 
+</details>
 
 ---
 
@@ -1553,18 +2002,24 @@ Write MaRdI image object to DICOM and/or NifTI
 Adapted from dicom_write_volume.m (D.Kroon, University of Twente, 2009)
 https://www.mathworks.com/matlabcentral/fileexchange/27941-dicom-toolbox?focused=5189263&tab=function
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Img, saveDirectory, imgFormat, isSavingSingleNiis
 - OutputNames : [N/A] 
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -1609,18 +2064,24 @@ Usage
     Phase.Hdr.MaskingImage will always be assigned. To assign the mask
     manually, run Phase.setmaskingimage before calling Phase.unwrapphase.
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Phase, varargin
 - OutputNames : [N/A] 
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -1635,18 +2096,24 @@ Assumes 5th dimension of Img.img corresponds to time:
     
     standardDeviation = std( Img.img, 0, 5 ) ;
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Img
 - OutputNames : timeStd
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -1661,18 +2128,24 @@ Assumes 5th dimension of Img.img corresponds to time:
     
     timeAverage = mean( Img.img, 5 ) ;
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Img
 - OutputNames : timeAverage
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -1696,18 +2169,24 @@ multi-echo/multi-measurement stack), in which case, the single mask is simply
 copied such that the assigned Img.Hdr.MaskingImage always possesses the same
 dimensions as Img.img
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Img, mask
 - OutputNames : [N/A] 
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -1734,18 +2213,24 @@ NOTE
     The protocol is basically that of Topfer R, et al. Magn Reson Med, 2018. 
     It hasn't been tested extensively for different acquisition prtocols/systems
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Img, Params
 - OutputNames : mask, weights
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -1795,18 +2280,24 @@ Advanced Usage TODO
         is a string supported by the scatteredInterpolant constructor.
     F is the object of type 'scatteredInterpolant' used for interpolation.
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Img, X_Ep, Y_Ep, Z_Ep, varargin
 - OutputNames : F
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -1820,18 +2311,24 @@ xyzIso = ISOCENTER( Img )
 Returns the 3-element vector of the x, y and z coordinates of the magnet
 isocenter in the patient coordinate system
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Img
 - OutputNames : xyzIso
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -1843,18 +2340,24 @@ isocenter in the patient coordinate system
 
 isPhase = ISPHASE( Img )
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Img
 - OutputNames : isPhase
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -1866,18 +2369,24 @@ isPhase = ISPHASE( Img )
 
 isMag = ISMAGNITUDE( Img )
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Img
 - OutputNames : isMag
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -1899,18 +2408,24 @@ Returns 3-component grid-spacing vector [units: mm]:
     from the DICOM hdr, this is Hdr.SpacingBetweenSlices - for a 2D acquisition
     this not necessarily the same as Hdr.SliceThickness).
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Img
 - OutputNames : h
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -1925,18 +2440,24 @@ Returns 3-component grid-spacing vector [units: mm]:
     location [units: mm] of the corresponding voxel with respect to 
     DICOM's 'Reference Coordinate System'.
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Img
 - OutputNames : X, Y, Z
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -1955,18 +2476,24 @@ voxel is > threshold
 
 By default, threshold = 0.01
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Mag, threshold
 - OutputNames : mask
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -1977,18 +2504,24 @@ By default, threshold = 0.01
 
  GETNUMBEROFVOXELS
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Img
 - OutputNames : nVoxels
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -2002,18 +2535,24 @@ Gyro = getgyromagneticratio( Img )
 Examines .Hdr of MaRdI-type Img for .ImagedNucleus and returns gyromagnetic
 ratio in units of rad/s/T.
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Img
 - OutputNames : GYRO
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -2025,18 +2564,24 @@ ratio in units of rad/s/T.
 
 gridSize = GETGRIDSIZE( Img )
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Img
 - OutputNames : gridSize
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -2049,18 +2594,24 @@ fov = GETFIELDOFVIEW( Img ) ;
 
 Returns field of view in units of mm : [Row Column Slice] dimensions
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Img
 - OutputNames : fieldOfView
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -2076,18 +2627,24 @@ Returns vector of echo times in units of ms.
 If 2nd argument (echo index iEcho) is provided, GETECHOTIME returns the TE of
 the corresponding echo.
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Img, iEcho
 - OutputNames : echoTime
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -2113,18 +2670,24 @@ pff --> Siemens DICOM Hdr entry
 
 See: https://github.com/malaterre/GDCM/blob/master/Source/DataDictionary/CSAHeader.xml
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Img
 - OutputNames : pff
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -2138,18 +2701,24 @@ nSlices = GETNUMBEROFSLICES( Img )
 NOTE: nSlices is not necessarily equal to size( Img.img, 3).
 e.g. For a 3d (slab) encoding, GETNUMBEROFSLICES returns 1.
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Img
 - OutputNames : nSlices
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -2167,18 +2736,24 @@ however GETNUMBEROFMEASUREMENTS also checks the DICOM header in Img.Hdr and
 issues a warning if n differs from the expected value
 (Img.Hdr.MrProt.lRepetitions +1).
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Img
 - OutputNames : nVolumes
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -2191,18 +2766,24 @@ imgType = GETIMAGETYPE( Img )
 
 Returns either 'PHASE', 'MAGNITUDE', or 'UNKNOWN'
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Img
 - OutputNames : imgType
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -2214,18 +2795,24 @@ Returns either 'PHASE', 'MAGNITUDE', or 'UNKNOWN'
 
 f0 = GETIMAGINGFREQUENCY( Img ) ;
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Img
 - OutputNames : f0
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -2247,18 +2834,24 @@ in the series.
 For EPI MOSAIC (which has a single AcquisitionTime value for each volume),
 t( iSlice ) = AcquisitionTime (first slice) + iSlice*(volumeTR/nSlices)
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Img
 - OutputNames : t
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -2297,18 +2890,24 @@ Params
 TODO
     Add support for 2d (single slice) images
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Img, weights, Params
 - OutputNames : [N/A] 
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -2319,18 +2918,24 @@ TODO
 
  EXIST
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Img
 - OutputNames : is
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -2351,18 +2956,24 @@ NOTE: This is a crude estimate and only the case of Cartesian k-space
 sampling, beginning at the k_min periphery, has been considered in the
 current implementation!
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Img
 - OutputNames : t0
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -2375,18 +2986,24 @@ Make a copy of a MaRdI (i.e. handle) object.
 
 ImgCopy = Copy( Img ) ;
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Img
 - OutputNames : ImgCopy
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -2450,18 +3067,24 @@ Only used in Case 3 (image time series):
     .auxDelay   [default = 0]
         estimation of transmission delay inherent in the Aux recording process [units: ms]
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Img, Aux, Params
 - OutputNames : [N/A] 
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -2485,18 +3108,24 @@ see
 ShimSpecs_IUGM_Prisma_fit.converttomultipole( )
 ShimSpecs_HGM_Prisma_fit.converttomultipole( )
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Img
 - OutputNames : f0, g0, s0
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -2512,18 +3141,24 @@ Converts unwrapped phase [units:rad] to field [units: Hz]
     
     The 'undo' mode with -1 as the 2nd argument scales from Hz back to rad
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : protected
 - InputNames : Img, undoFlag
 - OutputNames : [N/A] 
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -2539,18 +3174,24 @@ and number of measurements/volumes
 
 TODO: Check additional properties + add outputs for each?
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : protected
 - InputNames : Img1, Img2
 - OutputNames : isSame
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -2578,18 +3219,24 @@ Note that all 3 properties can be reassigned at any point upon return.
 
 For info on the 2 optional arguments, see help scatteredInterpolant
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : protected
 - InputNames : Img, method, extrapolationMethod
 - OutputNames : Interpolant
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -2614,18 +3261,24 @@ WARNING
 
     To save NifTI's properly (takes longer) use Img.write()
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>true</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | true  |
 
 - Access : public
 - InputNames : Img
 - OutputNames : [N/A] 
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -2634,18 +3287,24 @@ WARNING
 
 **Synopsis**: _SEGMENTSPINALCANAL_S_ 
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>true</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | true  |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Params
 - OutputNames : mask, weights
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -2658,18 +3317,24 @@ list = FINDIMAGES( imageDirectory )
 
 Calls dir() to return list of .dcm OR .IMA files in imageDirectory and its echo_* subdirectories
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>true</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | true  |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : imgDir
 - OutputNames : list
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
@@ -2683,165 +3348,171 @@ isSame = COMPAREIMGGRIDS( X1, Y1, Z1, X2, Y2, Z2 )
 
 Returns TRUE if voxel positions of Img1 and Img2 are identical
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>true</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | true  |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : varargin
 - OutputNames : isSame
 - DefiningClass : MaRdI
+ 
+</details>
 
 ---
 
 ### set
-[ _built-in method derived from class_ **matlab.mixin.SetGet** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **matlab.mixin.SetGet**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### get
-[ _built-in method derived from class_ **matlab.mixin.SetGet** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **matlab.mixin.SetGet**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### setdisp
-[ _built-in method derived from class_ **matlab.mixin.SetGet** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **matlab.mixin.SetGet**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### getdisp
-[ _built-in method derived from class_ **matlab.mixin.SetGet** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **matlab.mixin.SetGet**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### eq
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### ne
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### lt
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### gt
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### le
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### ge
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### isvalid
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### findprop
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### notify
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### notify
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### addlistener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### listener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### addlistener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### listener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### addlistener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### listener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### addlistener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### listener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### addlistener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### listener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### findobj
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.

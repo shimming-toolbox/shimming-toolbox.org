@@ -4,10 +4,12 @@ repo_url: https://github.com/shimming-toolbox/shimming-toolbox
 docs_dir: ./docs
 markdown_extensions:
   - admonition
+  - extra:
+  - nl2br:
 nav:
-- 'Introduction': 'index.md'
+- 'Overview': 'index.md'
 - 'Getting Started': 'getting_started.md'
-- 'Support': 'support.md'
+#- 'Support': 'support.md'
 - 'Contributing':
   - 'General': 'contributing/contributing.md'
   - 'API documentation':
@@ -60,6 +62,7 @@ nav:
       - 'QualityGuidedUnwrap2D_EAO': 'contributing/api_documentation/example/QualityGuidedUnwrap2D_EAO.md'
       - 'realtime_zshim': 'contributing/api_documentation/example/realtime_zshim.md'
       - 'shimdemo': 'contributing/api_documentation/example/shimdemo.md'
+      - 'experiment': 'contributing/api_documentation/example/experiment.md'
     - 'external':
       - 'altmany-export_fig-4c015d5':
         - 'append_pdfs': 'contributing/api_documentation/external/altmany-export_fig-4c015d5/append_pdfs.md'
@@ -131,10 +134,10 @@ nav:
       - 'parse-dicom':
         - 'src':
           - 'matlab':
-            - '': 'contributing/api_documentation/external/parse-dicom/src/matlab/c_str.md'
-            - '': 'contributing/api_documentation/external/parse-dicom/src/matlab/mread.md'
-            - '': 'contributing/api_documentation/external/parse-dicom/src/matlab/parse_mrprot.md'
-            - '': 'contributing/api_documentation/external/parse-dicom/src/matlab/parse_siemens_shadow.md'
+            - 'c_str': 'contributing/api_documentation/external/parse-dicom/src/matlab/c_str.md'
+            - 'mread': 'contributing/api_documentation/external/parse-dicom/src/matlab/mread.md'
+            - 'parse_mrprot': 'contributing/api_documentation/external/parse-dicom/src/matlab/parse_mrprot.md'
+            - 'parse_siemens_shadow': 'contributing/api_documentation/external/parse-dicom/src/matlab/parse_siemens_shadow.md'
       - 'stoploop':
         - 'stoploop': 'contributing/api_documentation/external/stoploop/stoploop.md'
       - 'sunwrap':
@@ -146,6 +149,7 @@ nav:
         - 'dicominfosiemens': 'contributing/api_documentation/Img/misc/dicominfosiemens.md'
       - 'FieldEval': 'contributing/api_documentation/Img/FieldEval.md'
       - 'MaRdI': 'contributing/api_documentation/Img/MaRdI.md'
+      - 'read_nii': 'contributing/api_documentation/Img/read_nii.md'
     - 'misc':
       - 'assignifempty': 'contributing/api_documentation/misc/assignifempty.md'
       - 'bet': 'contributing/api_documentation/misc/bet.md'
@@ -170,12 +174,18 @@ nav:
       - 'shimbindir': 'contributing/api_documentation/misc/shimbindir.md'
       - 'sortdicoms': 'contributing/api_documentation/misc/sortdicoms.md'
       - 'unwrap3d': 'contributing/api_documentation/misc/unwrap3d.md'
+      - 'isOctave': 'contributing/api_documentation/misc/isOctave.md'
     - 'Ui':
       - 'ShimGui':
         - 'ShimGui': 'contributing/api_documentation/Ui/ShimGui/ShimGui.md'
-- 'Other ressources':
-  - 'Hardware':
-    - 'Description': 'other-ressources/hardware/description.md'
-    - 'Assembly': 'other-ressources/hardware/assembly.md'
+    - '+imutils':
+      - 'get_nii_coordinates': 'contributing/api_documentation/+imutils/get_nii_coordinates.md'
+      - 'read_nii': 'contributing/api_documentation/+imutils/read_nii.md'
+      - 'dicom_to_nifti': 'contributing/api_documentation/+imutils/dicom_to_nifti.md'
+      - 'load_niftis': 'contributing/api_documentation/+imutils/load_niftis.md'
+#- 'Other ressources':
+#  - 'Hardware':
+#    - 'Description': 'other-ressources/hardware/description.md'
+#    - 'Assembly': 'other-ressources/hardware/assembly.md'
 - 'Contributors': 'contributors.md'
 - 'License': 'license.md'

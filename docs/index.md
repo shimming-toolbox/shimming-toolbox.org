@@ -1,18 +1,22 @@
-# shimming-toolbox
+# Overview
 
 !!! warning
     This website is a work in progress. 
 
-## Overview
+![logo](img/shimming_toolbox_logo.png)
 
-This library consists of programs to perform shimming (static and real-time).
-First designed for use with the 24-channel spine shim ([Topfer R, et al., MRM,
-2018](https://doi.org/10.1002/mrm.27089)).
+The shimming-toolbox is open-source Matlab software package enabling a variety of MRI shimming (magnetic field homogenization) techniques such as [static](https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.25587) and [real-time](https://doi.org/10.1002/mrm.27089) shimming for use with standard manufacturer-supplied gradient/shim coils or with custom "multi-coil" arrays.
+
+## Flowchart
+
+The flowchart describes the different ways the toolbox can be used to shim.
+
+![logo](img/shimming_toolbox_flowchart.png)
 
 ## Dependencies and Installation
 
 Before running this software you will need to install the following dependencies:
-- MATLAB (tested on R2015A, but more recent versions are expected to work)
+- MATLAB version 2019B or later
   - Optimization toolbox
   - Image processing toolbox
 - [dcm2niix](https://github.com/rordenlab/dcm2niix#install)
@@ -27,9 +31,9 @@ the Matlab path should be configured automatically at session start-up by adding
 (create the file if it does not exist):
 
 ```
-% Change ~/Code/realtime_shimming_repository/ to wherever the repository was downloaded/cloned:
-PATH_TO_REALTIME_SHIMMING_REPOSITORY = '~/Code/realtime_shimming_repository/' ;
-addpath( genpath( PATH_TO_REALTIME_SHIMMING_REPOSITORY ) ) ;
+% Change ~/Code/shimming-toolbox/ to wherever the repository was downloaded/cloned:
+PATH_SHIMMINGTOOLBOX = '~/Code/shimming-toolbox/' ;
+addpath( genpath( PATH_SHIMMINGTOOLBOX ) ) ;
 ```
 
 For "daemon mode" to work, the MATLAB session must be started from the command line, and from the home folder, e.g.:
@@ -38,11 +42,11 @@ For "daemon mode" to work, the MATLAB session must be started from the command l
 user@polymtl ~ $ matlab &
 ```
 
-For the command line start, MATLAB also needs to exist within the system path, e.g. add the following lines (adapted to refer to your version of MATLAB) to ~/.bash_profile
+For the command line start, MATLAB also needs to exist within the system path, e.g. For MacOS, add the following lines (adapted to refer to your version of MATLAB) to ~/.bash_profile
 
 ```
 # add MATLAB path
-export PATH=$PATH:/Applications/MATLAB_R2015a.app/bin/
+export PATH=$PATH:/Applications/MATLAB_R2020a.app/bin/
 ```
 
 *For phase unwrapping:*

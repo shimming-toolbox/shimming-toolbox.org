@@ -88,33 +88,53 @@ Author: ryan.topfer@polymtl.ca
     Documentation for ProbeTracking
        doc ProbeTracking
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-__ATTRIBUTES__
-
-
-<table>
-<table border=1><tr><th>Hidden</th><th>Sealed</th><th>Abstract</th><th>Enumeration</th><th>ConstructOnLoad</th><th>HandleCompatible</th><th>RestrictsSubclassing</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>true</td><td>false</td></tr>
-</table>
+| Attribute            | Value |
+|:--------------------:|:-----:|
+| Hidden               | false |
+| Sealed               | false |
+| Abstract             | false |
+| Enumeration          | false |
+| ConstructOnLoad      | false |
+| HandleCompatible     | true  |
+| RestrictsSubclassing | false |
 
 - InferiorClasses : [N/A] 
 - ContainingPackage : [N/A] 
 - EventList : [N/A] 
 - EnumerationMemberList : [N/A] 
 - Superclasses: matlab.mixin.SetGet
+ 
+</details>
 
 - - -
 ## Properties
 
-
+ 
+-----
+ 
 ### Data
 
 **Synopsis:** _ProbeTracking/Data is a property._
 
-<table>
-<table border=1><tr><th>Dependent</th><th>Constant</th><th>Abstract</th><th>Transient</th><th>Hidden</th><th>GetObservable</th><th>SetObservable</th><th>AbortSet</th><th>NonCopyable</th><th>HasDefault</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
+| Attribute     | Value |
+|:-------------:|:-----:|
+| Dependent     | false |
+| Constant      | false |
+| Abstract      | false |
+| Transient     | false |
+| Hidden        | false |
+| GetObservable | false |
+| SetObservable | false |
+| AbortSet      | false |
+| NonCopyable   | false |
+| HasDefault    | false |
 
 - GetAccess : public
 - SetAccess : public
@@ -124,15 +144,30 @@ __ATTRIBUTES__
 - DefaultValue : 
 - Validation : [N/A] 
 - DefiningClass : ProbeTracking
-
+ 
+</details>
+ 
+-----
+ 
 ### Log
 
 **Synopsis:** _ProbeTracking/Log is a property._
 
-<table>
-<table border=1><tr><th>Dependent</th><th>Constant</th><th>Abstract</th><th>Transient</th><th>Hidden</th><th>GetObservable</th><th>SetObservable</th><th>AbortSet</th><th>NonCopyable</th><th>HasDefault</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
+| Attribute     | Value |
+|:-------------:|:-----:|
+| Dependent     | false |
+| Constant      | false |
+| Abstract      | false |
+| Transient     | false |
+| Hidden        | false |
+| GetObservable | false |
+| SetObservable | false |
+| AbortSet      | false |
+| NonCopyable   | false |
+| HasDefault    | false |
 
 - GetAccess : public
 - SetAccess : public
@@ -142,15 +177,30 @@ __ATTRIBUTES__
 - DefaultValue : 
 - Validation : [N/A] 
 - DefiningClass : ProbeTracking
-
+ 
+</details>
+ 
+-----
+ 
 ### Source
 
 **Synopsis:** _ProbeTracking/Source is a property._
 
-<table>
-<table border=1><tr><th>Dependent</th><th>Constant</th><th>Abstract</th><th>Transient</th><th>Hidden</th><th>GetObservable</th><th>SetObservable</th><th>AbortSet</th><th>NonCopyable</th><th>HasDefault</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
+| Attribute     | Value |
+|:-------------:|:-----:|
+| Dependent     | false |
+| Constant      | false |
+| Abstract      | false |
+| Transient     | false |
+| Hidden        | false |
+| GetObservable | false |
+| SetObservable | false |
+| AbortSet      | false |
+| NonCopyable   | false |
+| HasDefault    | false |
 
 - GetAccess : public
 - SetAccess : public
@@ -160,17 +210,32 @@ __ATTRIBUTES__
 - DefaultValue : 
 - Validation : [N/A] 
 - DefiningClass : ProbeTracking
-
+ 
+</details>
+ 
+-----
+ 
 ### Specs
 
 **Synopsis:** _- state = {active, inactive, inert, void}_
 
  Specs -  state = {active, inactive, inert, void}
 
-<table>
-<table border=1><tr><th>Dependent</th><th>Constant</th><th>Abstract</th><th>Transient</th><th>Hidden</th><th>GetObservable</th><th>SetObservable</th><th>AbortSet</th><th>NonCopyable</th><th>HasDefault</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
+| Attribute     | Value |
+|:-------------:|:-----:|
+| Dependent     | false |
+| Constant      | false |
+| Abstract      | false |
+| Transient     | false |
+| Hidden        | false |
+| GetObservable | false |
+| SetObservable | false |
+| AbortSet      | false |
+| NonCopyable   | false |
+| HasDefault    | false |
 
 - GetAccess : public
 - SetAccess : public
@@ -180,6 +245,8 @@ __ATTRIBUTES__
 - DefaultValue : 
 - Validation : [N/A] 
 - DefiningClass : ProbeTracking
+ 
+</details>
 
 ---
 ## Methods
@@ -196,18 +263,24 @@ Resets the daemon recording: i.e. Preceding recording is retained in Aux.Log
 but the signal processing will begin afresh. (Use when patient position
 changes, for example.)
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Aux
 - OutputNames : [N/A] 
 - DefiningClass : ProbeTracking
+ 
+</details>
 
 ---
 
@@ -219,18 +292,24 @@ changes, for example.)
     SAVERECORDING( Aux )
     SAVERECORDING( Aux, logFilename )
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Aux, logFilename
 - OutputNames : [N/A] 
 - DefiningClass : ProbeTracking
+ 
+</details>
 
 ---
 
@@ -275,18 +354,24 @@ NOTE: Aux and Aux2 must possess the same sampling period (i.e. Aux.Specs.dt == A
         Problems may arise if this is too fast!
         [default : 4 Hz ]
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Aux1, varargin
 - OutputNames : [N/A] 
 - DefiningClass : ProbeTracking
+ 
+</details>
 
 ---
 
@@ -303,18 +388,24 @@ user is prompted whether to proceed (e.g. save + return) or re-record.
 
 See HELP ProbeTracking.recordphysiosignal() for accepted Parameters
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Aux, Params
 - OutputNames : [N/A] 
 - DefiningClass : ProbeTracking
+ 
+</details>
 
 ---
 
@@ -326,18 +417,24 @@ See HELP ProbeTracking.recordphysiosignal() for accepted Parameters
 
 Sends STOP byte to daemon session
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Aux
 - OutputNames : [N/A] 
 - DefiningClass : ProbeTracking
+ 
+</details>
 
 ---
 
@@ -349,18 +446,24 @@ Sends STOP byte to daemon session
 
 [pRaw, p] = GETUPDATE( Aux )
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Aux
 - OutputNames : pRaw, p, t
 - DefiningClass : ProbeTracking
+ 
+</details>
 
 ---
 
@@ -373,18 +476,24 @@ Empties subfields of Aux.Data
 
 [] = CLEARRECORDING( Aux )
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Aux
 - OutputNames : [N/A] 
 - DefiningClass : ProbeTracking
+ 
+</details>
 
 ---
 
@@ -397,18 +506,24 @@ Closes communication port/source + marks recording end time
 
 [] = STOPRECORDING( Aux )
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Aux
 - OutputNames : [N/A] 
 - DefiningClass : ProbeTracking
+ 
+</details>
 
 ---
 
@@ -426,18 +541,24 @@ will be applied.
 
 Limits are saved in Aux.Specs.clipLimits
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Aux, Params
 - OutputNames : [N/A] 
 - DefiningClass : ProbeTracking
+ 
+</details>
 
 ---
 
@@ -452,18 +573,24 @@ Opens Aux.Source
 
 Returns TRUE if successful
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Aux
 - OutputNames : isRecording
 - DefiningClass : ProbeTracking
+ 
+</details>
 
 ---
 
@@ -475,18 +602,24 @@ Returns TRUE if successful
 
 DELETE( Aux )
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Aux
 - OutputNames : [N/A] 
 - DefiningClass : ProbeTracking
+ 
+</details>
 
 ---
 
@@ -498,40 +631,50 @@ DELETE( Aux )
 
 Aux = COPY( Aux )
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Aux
 - OutputNames : AuxCopy
 - DefiningClass : ProbeTracking
+ 
+</details>
 
 ---
 
 
 ### ProbeTracking
 
-**Synopsis**: _PROBETRACKING_ 
+**Synopsis**: _Constructor_ 
 
- PROBETRACKING
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : varargin
 - OutputNames : Aux
 - DefiningClass : ProbeTracking
+ 
+</details>
 
 ---
 
@@ -543,18 +686,24 @@ Aux = COPY( Aux )
 
 [] = LAUNCHRECORDINDAEMON( Aux )
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : private
 - InputNames : Aux
 - OutputNames : [N/A] 
 - DefiningClass : ProbeTracking
+ 
+</details>
 
 ---
 
@@ -571,18 +720,24 @@ session to load the object and begin background recording.
 The daemon session reads directly from the USB (Com) port while the user
 session reads from a file buffer.
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : private
 - InputNames : Aux
 - OutputNames : [N/A] 
 - DefiningClass : ProbeTracking
+ 
+</details>
 
 ---
 
@@ -593,18 +748,24 @@ session reads from a file buffer.
 
  WRITEUPDATETOLOGFILE
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : private
 - InputNames : Aux
 - OutputNames : [N/A] 
 - DefiningClass : ProbeTracking
+ 
+</details>
 
 ---
 
@@ -615,18 +776,24 @@ session reads from a file buffer.
 
  READUPDATEFROMLOGFILE
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : private
 - InputNames : Aux
 - OutputNames : nSamples, pRaw, p, t, trigger
 - DefiningClass : ProbeTracking
+ 
+</details>
 
 ---
 
@@ -638,18 +805,24 @@ session reads from a file buffer.
 
 [] = CREATELOGFILE( Aux )
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : private
 - InputNames : Aux
 - OutputNames : [N/A] 
 - DefiningClass : ProbeTracking
+ 
+</details>
 
 ---
 
@@ -667,18 +840,24 @@ session reads from a file buffer.
     over the measurementLog graph and the user is asked if the result is 
     satisfactory (or redo).
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>true</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | true  |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : measurementLog, nSamplesApnea, isUserSelectionEnabled
 - OutputNames : medianMeasure
 - DefiningClass : ProbeTracking
+ 
+</details>
 
 ---
 
@@ -693,18 +872,24 @@ Calculates measurementLog variance over sliding window (nSamples long) and
 returns index (iFlattest) corresponding to start of the most constant segment
 (e.g. a breath-hold).
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>true</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | true  |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : measurementLog, nSamples
 - OutputNames : iFlattest
 - DefiningClass : ProbeTracking
+ 
+</details>
 
 ---
 
@@ -727,18 +912,24 @@ Supported fields to Params struct
     .yLabel
         [default: 'Amplitude (AU)']
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>true</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | true  |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : measurementLog, Params
 - OutputNames : [N/A] 
 - DefiningClass : ProbeTracking
+ 
+</details>
 
 ---
 
@@ -760,18 +951,24 @@ which derived from
 https://github.com/timothyv/Physiological-Log-Extraction-for-Modeling--PhLEM--Toolbox
 https://cfn.upenn.edu/aguirre/wiki/public:pulse-oximetry_during_fmri_scanning
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>true</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | true  |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : filename
 - OutputNames : Data
 - DefiningClass : ProbeTracking
+ 
+</details>
 
 ---
 
@@ -788,18 +985,24 @@ filename must be the path to a .mat file saved by ProbeTracking,
 or to a text file with a .resp file extension, indicating a Siemens PMU
 recording, in which case loadlog wraps to loadlog_siemens()
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>true</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | true  |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : filename
 - OutputNames : Data
 - DefiningClass : ProbeTracking
+ 
+</details>
 
 ---
 
@@ -814,18 +1017,24 @@ vector(s) of doubles.
 measurementLog                = LOADMEASUREMENTLOG( measurementLogFilename ) ;
 [measurementLog, sampleTimes] = LOADMEASUREMENTLOG( measurementLogFilename, sampleTimesFilename )
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>true</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | true  |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : measurementLogFilename, sampleTimesFilename
 - OutputNames : p, sampleTimes
 - DefiningClass : ProbeTracking
+ 
+</details>
 
 ---
 
@@ -848,18 +1057,24 @@ AuxSpecs can have the following fields
     Address of the probe-associated serial port within file system
     e.g. AuxSpecs.portName = '/dev/tty.usbmodem487312' ;
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>true</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | true  |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : AuxSpecs
 - OutputNames : Source, AuxSpecs
 - DefiningClass : ProbeTracking
+ 
+</details>
 
 ---
 
@@ -868,165 +1083,171 @@ AuxSpecs can have the following fields
 
 **Synopsis**: _Returns an empty object array of the given size_ 
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>true</td><td>false</td><td>false</td><td>false</td><td>true</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | true  |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | true  |
 
 - Access : public
 - InputNames : varargin
 - OutputNames : E
 - DefiningClass : ProbeTracking
+ 
+</details>
 
 ---
 
 ### set
-[ _built-in method derived from class_ **matlab.mixin.SetGet** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **matlab.mixin.SetGet**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### get
-[ _built-in method derived from class_ **matlab.mixin.SetGet** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **matlab.mixin.SetGet**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### setdisp
-[ _built-in method derived from class_ **matlab.mixin.SetGet** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **matlab.mixin.SetGet**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### getdisp
-[ _built-in method derived from class_ **matlab.mixin.SetGet** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **matlab.mixin.SetGet**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### eq
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### ne
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### lt
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### gt
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### le
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### ge
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### isvalid
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### findprop
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### notify
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### notify
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### addlistener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### listener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### addlistener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### listener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### addlistener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### listener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### addlistener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### listener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### addlistener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### listener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### findobj
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.

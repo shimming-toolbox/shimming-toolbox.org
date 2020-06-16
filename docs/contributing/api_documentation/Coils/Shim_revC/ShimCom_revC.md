@@ -30,33 +30,53 @@ Updated::20181028::ryan.topfer@polymtl.ca
     Documentation for ShimCom_revC
        doc ShimCom_revC
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-__ATTRIBUTES__
-
-
-<table>
-<table border=1><tr><th>Hidden</th><th>Sealed</th><th>Abstract</th><th>Enumeration</th><th>ConstructOnLoad</th><th>HandleCompatible</th><th>RestrictsSubclassing</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>true</td><td>false</td></tr>
-</table>
+| Attribute            | Value |
+|:--------------------:|:-----:|
+| Hidden               | false |
+| Sealed               | false |
+| Abstract             | false |
+| Enumeration          | false |
+| ConstructOnLoad      | false |
+| HandleCompatible     | true  |
+| RestrictsSubclassing | false |
 
 - InferiorClasses : [N/A] 
 - ContainingPackage : [N/A] 
 - EventList : [N/A] 
 - EnumerationMemberList : [N/A] 
 - Superclasses: ShimCom
+ 
+</details>
 
 - - -
 ## Properties
 
-
+ 
+-----
+ 
 ### Cmd
 
 **Synopsis:** _ShimCom/Cmd is a property._
 
-<table>
-<table border=1><tr><th>Dependent</th><th>Constant</th><th>Abstract</th><th>Transient</th><th>Hidden</th><th>GetObservable</th><th>SetObservable</th><th>AbortSet</th><th>NonCopyable</th><th>HasDefault</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
+| Attribute     | Value |
+|:-------------:|:-----:|
+| Dependent     | false |
+| Constant      | false |
+| Abstract      | false |
+| Transient     | false |
+| Hidden        | false |
+| GetObservable | false |
+| SetObservable | false |
+| AbortSet      | false |
+| NonCopyable   | false |
+| HasDefault    | false |
 
 - GetAccess : public
 - SetAccess : public
@@ -66,15 +86,30 @@ __ATTRIBUTES__
 - DefaultValue : 
 - Validation : [N/A] 
 - DefiningClass : ShimCom
-
+ 
+</details>
+ 
+-----
+ 
 ### ComPort
 
 **Synopsis:** _ShimCom/ComPort is a property._
 
-<table>
-<table border=1><tr><th>Dependent</th><th>Constant</th><th>Abstract</th><th>Transient</th><th>Hidden</th><th>GetObservable</th><th>SetObservable</th><th>AbortSet</th><th>NonCopyable</th><th>HasDefault</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
+| Attribute     | Value |
+|:-------------:|:-----:|
+| Dependent     | false |
+| Constant      | false |
+| Abstract      | false |
+| Transient     | false |
+| Hidden        | false |
+| GetObservable | false |
+| SetObservable | false |
+| AbortSet      | false |
+| NonCopyable   | false |
+| HasDefault    | false |
 
 - GetAccess : public
 - SetAccess : public
@@ -84,15 +119,30 @@ __ATTRIBUTES__
 - DefaultValue : 
 - Validation : [N/A] 
 - DefiningClass : ShimCom
-
+ 
+</details>
+ 
+-----
+ 
 ### Data
 
 **Synopsis:** _ShimCom/Data is a property._
 
-<table>
-<table border=1><tr><th>Dependent</th><th>Constant</th><th>Abstract</th><th>Transient</th><th>Hidden</th><th>GetObservable</th><th>SetObservable</th><th>AbortSet</th><th>NonCopyable</th><th>HasDefault</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
+| Attribute     | Value |
+|:-------------:|:-----:|
+| Dependent     | false |
+| Constant      | false |
+| Abstract      | false |
+| Transient     | false |
+| Hidden        | false |
+| GetObservable | false |
+| SetObservable | false |
+| AbortSet      | false |
+| NonCopyable   | false |
+| HasDefault    | false |
 
 - GetAccess : public
 - SetAccess : public
@@ -102,15 +152,30 @@ __ATTRIBUTES__
 - DefaultValue : 
 - Validation : [N/A] 
 - DefiningClass : ShimCom
-
+ 
+</details>
+ 
+-----
+ 
 ### Params
 
 **Synopsis:** _ShimCom/Params is a property._
 
-<table>
-<table border=1><tr><th>Dependent</th><th>Constant</th><th>Abstract</th><th>Transient</th><th>Hidden</th><th>GetObservable</th><th>SetObservable</th><th>AbortSet</th><th>NonCopyable</th><th>HasDefault</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
+| Attribute     | Value |
+|:-------------:|:-----:|
+| Dependent     | false |
+| Constant      | false |
+| Abstract      | false |
+| Transient     | false |
+| Hidden        | false |
+| GetObservable | false |
+| SetObservable | false |
+| AbortSet      | false |
+| NonCopyable   | false |
+| HasDefault    | false |
 
 - GetAccess : public
 - SetAccess : public
@@ -120,15 +185,30 @@ __ATTRIBUTES__
 - DefaultValue : 
 - Validation : [N/A] 
 - DefiningClass : ShimCom
-
+ 
+</details>
+ 
+-----
+ 
 ### Specs
 
 **Synopsis:** _ShimCom/Specs is a property._
 
-<table>
-<table border=1><tr><th>Dependent</th><th>Constant</th><th>Abstract</th><th>Transient</th><th>Hidden</th><th>GetObservable</th><th>SetObservable</th><th>AbortSet</th><th>NonCopyable</th><th>HasDefault</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
+| Attribute     | Value |
+|:-------------:|:-----:|
+| Dependent     | false |
+| Constant      | false |
+| Abstract      | false |
+| Transient     | false |
+| Hidden        | false |
+| GetObservable | false |
+| SetObservable | false |
+| AbortSet      | false |
+| NonCopyable   | false |
+| HasDefault    | false |
 
 - GetAccess : public
 - SetAccess : public
@@ -138,6 +218,8 @@ __ATTRIBUTES__
 - DefaultValue : 
 - Validation : [N/A] 
 - DefiningClass : ShimCom
+ 
+</details>
 
 ---
 ## Methods
@@ -153,18 +235,24 @@ __ATTRIBUTES__
 Scale current (float in amperes) to uint16, convert to string, and if the resulting length is < 5,
 pad with leading '0':
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim, current
 - OutputNames : current
 - DefiningClass : ShimCom_revC
+ 
+</details>
 
 ---
 
@@ -175,18 +263,24 @@ pad with leading '0':
 
  CALIBRATEDAC
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim
 - OutputNames : isCalibrationSuccesful, isChannelCalibrationSuccesful
 - DefiningClass : ShimCom_revC
+ 
+</details>
 
 ---
 
@@ -198,18 +292,24 @@ pad with leading '0':
 
     Transmits command from client to shim microcontroller
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim, command
 - OutputNames : isSendOk
 - DefiningClass : ShimCom_revC
+ 
+</details>
 
 ---
 
@@ -225,18 +325,24 @@ ChannelOutputs has fields
     .current [units: A]
     .voltage [units: mV]
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim
 - OutputNames : ChannelOutputs
 - DefiningClass : ShimCom_revC
+ 
+</details>
 
 ---
 
@@ -248,18 +354,24 @@ ChannelOutputs has fields
 
 [ChannelOutput] = getchanneloutput( Shim , [], iChannel )
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim, ~, iChannel
 - OutputNames : ChannelOutput
 - DefiningClass : ShimCom_revC
+ 
+</details>
 
 ---
 
@@ -271,18 +383,24 @@ ChannelOutputs has fields
 
 Close serial communication port
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim
 - OutputNames : [N/A] 
 - DefiningClass : ShimCom_revC
+ 
+</details>
 
 ---
 
@@ -294,18 +412,24 @@ Close serial communication port
 
 Open serial communication port & reset Arduino Board
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim
 - OutputNames : [N/A] 
 - DefiningClass : ShimCom_revC
+ 
+</details>
 
 ---
 
@@ -317,18 +441,24 @@ Open serial communication port & reset Arduino Board
 
     Shim currents reset to 0 A
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim
 - OutputNames : [N/A] 
 - DefiningClass : ShimCom_revC
+ 
+</details>
 
 ---
 
@@ -342,18 +472,24 @@ Open serial communication port & reset Arduino Board
 Update all channels with currents (8-element vector w/units in A) by ramping
 current up over 1.0 s
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim, currents
 - OutputNames : [N/A] 
 - DefiningClass : ShimCom_revC
+ 
+</details>
 
 ---
 
@@ -366,18 +502,24 @@ current up over 1.0 s
 
 Update all channels with currents (8-element vector w/units in A)
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim, currents
 - OutputNames : [N/A] 
 - DefiningClass : ShimCom_revC
+ 
+</details>
 
 ---
 
@@ -390,18 +532,24 @@ Set shim current (in units of Amps) for single channel
 
 [] = SETANDLOADSHIM( Shims, channelIndex, current )
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim, iCh, current
 - OutputNames : [N/A] 
 - DefiningClass : ShimCom_revC
+ 
+</details>
 
 ---
 
@@ -412,40 +560,50 @@ Set shim current (in units of Amps) for single channel
 
  GETSYSTEMHEARTBEAT
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim
 - OutputNames : isAckReceived
 - DefiningClass : ShimCom_revC
+ 
+</details>
 
 ---
 
 
 ### ShimCom_revC
 
-**Synopsis**: _SHIMCOM - Shim Communication_ 
+**Synopsis**: _Constructor_ 
 
- SHIMCOM - Shim Communication
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Specs
 - OutputNames : Shim
 - DefiningClass : ShimCom_revC
+ 
+</details>
 
 ---
 
@@ -458,18 +616,24 @@ Set shim current (in units of Amps) for single channel
 
 --------------------------------------------------------------------------
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>true</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | true  |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Specs
 - OutputNames : ComPort
 - DefiningClass : ShimCom_revC
+ 
+</details>
 
 ---
 
@@ -482,18 +646,24 @@ Set shim current (in units of Amps) for single channel
 
 --------------------------------------------------------------------------
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>true</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | true  |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : [N/A] 
 - OutputNames : Cmd
 - DefiningClass : ShimCom_revC
+ 
+</details>
 
 ---
 
@@ -502,18 +672,24 @@ Set shim current (in units of Amps) for single channel
 
 **Synopsis**: _Returns an empty object array of the given size_ 
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>true</td><td>false</td><td>false</td><td>false</td><td>true</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | true  |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | true  |
 
 - Access : public
 - InputNames : varargin
 - OutputNames : E
 - DefiningClass : ShimCom_revC
+ 
+</details>
 
 ---
 
@@ -526,18 +702,24 @@ Shim = DELETECOMPORT( Shim )
 
 Correct way to delete and clear the serial port object
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim
 - OutputNames : Shim
 - DefiningClass : ShimCom
+ 
+</details>
 
 ---
 
@@ -550,18 +732,24 @@ DELETE( Shim )
 
 Destructor. Calls Shim.deletecomport( )
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>false</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | false |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : Shim
 - OutputNames : [N/A] 
 - DefiningClass : ShimCom
+ 
+</details>
 
 ---
 
@@ -573,18 +761,24 @@ Destructor. Calls Shim.deletecomport( )
     
 int16 z = CONVERTFROMTWOSCOMPLEMENT( uint8 z )
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>true</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | true  |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : zUInt
 - OutputNames : z
 - DefiningClass : ShimCom
+ 
+</details>
 
 ---
 
@@ -596,18 +790,24 @@ int16 z = CONVERTFROMTWOSCOMPLEMENT( uint8 z )
 
 int16 z = MERGEINTS( uint8 highByte, uint8 lowByte, isSigned )
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>true</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | true  |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : highByte, lowByte, isSigned
 - OutputNames : z
 - DefiningClass : ShimCom
+ 
+</details>
 
 ---
 
@@ -624,165 +824,171 @@ if z is positive
 else if z is in two's complement
     ...
 
+<details markdown="block">
+<summary><b>Details</b></summary>
+ 
 
-#### Attributes:
-
-<table>
-<table border=1><tr><th>Static</th><th>Abstract</th><th>Sealed</th><th>ExplicitConversion</th><th>Hidden</th></tr>
-<tr><td>true</td><td>false</td><td>false</td><td>false</td><td>false</td></tr>
-</table>
+| Attribute          | Value |
+|:------------------:|:-----:|
+| Static             | true  |
+| Abstract           | false |
+| Sealed             | false |
+| ExplicitConversion | false |
+| Hidden             | false |
 
 - Access : public
 - InputNames : z
 - OutputNames : lowByte, highByte
 - DefiningClass : ShimCom
+ 
+</details>
 
 ---
 
 ### set
-[ _built-in method derived from class_ **matlab.mixin.SetGet** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **matlab.mixin.SetGet**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### get
-[ _built-in method derived from class_ **matlab.mixin.SetGet** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **matlab.mixin.SetGet**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### setdisp
-[ _built-in method derived from class_ **matlab.mixin.SetGet** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **matlab.mixin.SetGet**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### getdisp
-[ _built-in method derived from class_ **matlab.mixin.SetGet** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **matlab.mixin.SetGet**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### eq
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### ne
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### lt
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### gt
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### le
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### ge
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### isvalid
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### findprop
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### notify
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### notify
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### addlistener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### listener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### addlistener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### listener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### addlistener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### listener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### addlistener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### listener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### addlistener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### listener
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.
 
 ---
 
 ### findobj
-[ _built-in method derived from class_ **handle** ]
-For more info, see MATLAB documentation]
+— _built-in method derived from class_ **handle**. 
+For more info, refer to the MATLAB documentation.

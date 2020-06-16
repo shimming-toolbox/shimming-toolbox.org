@@ -28,7 +28,7 @@ TODO cont...
 List of available maps:
 - UNF: https://drive.google.com/drive/folders/1DSCTeh9qRCgS55fWLGtsNeYdq8DsRyMg
 
-Download map and copy it under $PATH_REALTIMESHIMMING/data/
+Download map and copy it under $PATH_SHIMMINGTOOLBOX/data/
 
 ## Interfacing with hardware: **ShimUse( )** and **ShimCom( )**
 
@@ -47,7 +47,7 @@ The class *ShimUse()* provides the generic user interface for the shim experimen
   - Copy the file `shim_params_template.m` to `shim_params.m` and edit `shim_params.m` according to your setup.
   - Launch experiment by instantiating a ShimUse object with the desired parameters: Shims = ShimUse( shim_params )
 
-- See example: realtime_shimming/example/XXX
+- See example: shimming-toolbox/example/XXX
 
 ## Class definitions
 
@@ -58,4 +58,4 @@ Other classes pertaining to shimming:
 *Dynamic tracking of resonance offsets (for now: only subject respiration vis-a-vis the respiratory probe...).*
 
 For the documentation, in the Matlab command prompt type:
-	doc [class name]
+    doc [class name]
