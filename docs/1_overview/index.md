@@ -1,4 +1,4 @@
-![logo](img/shimming_toolbox_logo.png)
+![logo](../img/shimming_toolbox_logo.png)
 
 !!! note
     This website is a work in progress.
