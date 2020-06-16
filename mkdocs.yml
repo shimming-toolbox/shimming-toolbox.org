@@ -195,5 +195,6 @@ nav:
 #  - 'Hardware':
 #    - 'Description': 'other-ressources/hardware/description.md'
 #    - 'Assembly': 'other-ressources/hardware/assembly.md'
-- Contributors: contributors.md
-- License: license.md
+- List of contributors: contributors.md
+- About:
+  - License: license.md
