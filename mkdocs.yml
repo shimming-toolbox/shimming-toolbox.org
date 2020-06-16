@@ -12,6 +12,7 @@ nav:
 - 'Support': 'support.md'
 - 'Contributing':
   - 'General': 'contributing/contributing.md'
+  - 'Flowchart' : 'contributing/flowchart.md'
   - 'API documentation':
     - 'Aux hardware':
       - 'RespiratoryProbe':
