@@ -9,7 +9,7 @@ markdown_extensions:
 nav:
 - 'Overview': 'index.md'
 - 'Getting Started': 'getting_started.md'
-- 'Support': 'support.md'
+#- 'Support': 'support.md'
 - 'Contributing':
   - 'General': 'contributing/contributing.md'
   - 'API documentation':
@@ -183,9 +183,9 @@ nav:
       - 'read_nii': 'contributing/api_documentation/+imutils/read_nii.md'
       - 'dicom_to_nifti': 'contributing/api_documentation/+imutils/dicom_to_nifti.md'
       - 'load_niftis': 'contributing/api_documentation/+imutils/load_niftis.md'
-- 'Other ressources':
-  - 'Hardware':
-    - 'Description': 'other-ressources/hardware/description.md'
-    - 'Assembly': 'other-ressources/hardware/assembly.md'
+#- 'Other ressources':
+#  - 'Hardware':
+#    - 'Description': 'other-ressources/hardware/description.md'
+#    - 'Assembly': 'other-ressources/hardware/assembly.md'
 - 'Contributors': 'contributors.md'
 - 'License': 'license.md'
