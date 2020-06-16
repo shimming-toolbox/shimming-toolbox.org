@@ -1,13 +1,17 @@
-# shimming-toolbox
+# Overview
 
 !!! warning
     This website is a work in progress. 
 
 ![logo](img/shimming_toolbox_logo.png)
 
-## Overview
-
 The shimming-toolbox is open-source Matlab software package enabling a variety of MRI shimming (magnetic field homogenization) techniques such as [static](https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.25587) and [real-time](https://doi.org/10.1002/mrm.27089) shimming for use with standard manufacturer-supplied gradient/shim coils or with custom "multi-coil" arrays.
+
+## Flowchart
+
+The flowchart describes the different ways the toolbox can be used to shim.
+
+![logo](img/shimming_toolbox_flowchart.png)
 
 ## Dependencies and Installation
 
