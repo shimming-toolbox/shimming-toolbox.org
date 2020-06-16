@@ -4,6 +4,8 @@ repo_url: https://github.com/shimming-toolbox/shimming-toolbox
 docs_dir: ./docs
 markdown_extensions:
   - admonition
+  - extra:
+  - nl2br:
 nav:
 - 'Introduction': 'index.md'
 - 'Getting Started': 'getting_started.md'
