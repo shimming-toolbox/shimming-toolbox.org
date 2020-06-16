@@ -1,17 +1,24 @@
 site_name: Shimming-toolbox
-theme: {name: material}
+theme:
+  name: readthedocs
 repo_url: https://github.com/shimming-toolbox/shimming-toolbox
 docs_dir: ./docs
 markdown_extensions:
   - admonition
   - extra:
   - nl2br:
+extra_css:
+  - css/extra.css
 nav:
-- 'Overview': 'index.md'
-- 'Getting Started': 'getting_started.md'
-#- 'Support': 'support.md'
+- Overview:
+  - Introduction: index.md
+- Getting Started:
+  - Installation: installation.md
+  - Usage: getting_started.md
+  - Flowchart: flowchart.md
+  - Help: help.md
 - 'Contributing':
-  - 'General': 'contributing/contributing.md'
+  - 'Guidelines': 'contributing/contributing_guidelines.md'
   - 'API documentation':
     - 'Aux hardware':
       - 'RespiratoryProbe':
@@ -183,9 +190,10 @@ nav:
       - 'read_nii': 'contributing/api_documentation/+imutils/read_nii.md'
       - 'dicom_to_nifti': 'contributing/api_documentation/+imutils/dicom_to_nifti.md'
       - 'load_niftis': 'contributing/api_documentation/+imutils/load_niftis.md'
-#- 'Other ressources':
-#  - 'Hardware':
-#    - 'Description': 'other-ressources/hardware/description.md'
-#    - 'Assembly': 'other-ressources/hardware/assembly.md'
-- 'Contributors': 'contributors.md'
-- 'License': 'license.md'
+# - 'Other ressources':
+ # - 'Hardware':
+ #   - 'Description': 'other-ressources/hardware/description.md'
+ #   - 'Assembly': 'other-ressources/hardware/assembly.md'
+- List of contributors: contributors.md
+- About:
+  - License: license.md
