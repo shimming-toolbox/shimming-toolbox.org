@@ -1,5 +1,6 @@
 site_name: Shimming-toolbox
-theme: {name: readthedocs}
+theme:
+  name: readthedocs
 repo_url: https://github.com/shimming-toolbox/shimming-toolbox
 docs_dir: ./docs
 markdown_extensions:
@@ -7,11 +8,16 @@ markdown_extensions:
   - extra:
   - nl2br:
 nav:
-- 'Overview': 'index.md'
-- 'Getting Started': 'getting_started.md'
+- Overview:
+  - Introduction: index.md
+- Getting Started:
+  - Installation: installation.md
+  - Usage: getting_started.md
+  - Flowchart: flowchart.md
+  - Help: help.md
 #- 'Support': 'support.md'
 - 'Contributing':
-  - 'General': 'contributing/contributing.md'
+  - 'Guidelines': 'contributing/contributing_guidelines.md'
   - 'API documentation':
     - 'Aux hardware':
       - 'RespiratoryProbe':
