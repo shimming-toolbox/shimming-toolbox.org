@@ -1,5 +1,5 @@
 site_name: Shimming-toolbox
-theme: {name: material}
+theme: {name: readthedocs}
 repo_url: https://github.com/shimming-toolbox/shimming-toolbox
 docs_dir: ./docs
 markdown_extensions:
