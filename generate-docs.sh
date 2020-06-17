@@ -29,14 +29,17 @@ python -m virtualenv "$VENV"
 . "$VENV"/bin/activate
 pip install --no-cache-dir --ignore-installed mkdocs
 
+
 if [ -n "${GH_PAGES_TOKEN}" ]; then
     # XXX this is destructive to the repo, but we're assuming this is being run in CI so no matter?
 
     #git config http."https://github.com/".extraheader "Authorization: token $GH_PAGES_TOKEN" # authenticate over HTTPS with the given token
     # ^ this doesn't work. github will accept 'token ...' for API calls, but not for git+https://
     # so instead we have to generate an HTTP basic auth:
-    auth="$(echo -n "x-access-token:$GH_PAGES_TOKEN" | base64 | tr -d '\r' | tr -d '\n')"
-    git config http."https://github.com/".extraheader "Authorization: basic "$auth"" # authenticate over HTTPS with the given token
+    #auth="$(echo -n "x-access-token:$GH_PAGES_TOKEN" | base64 | tr -d '\r' | tr -d '\n')"
+    #git config http."https://github.com/".extraheader "Authorization: basic "$auth"" # authenticate over HTTPS with the given token
+
+    git remote set-url --push origin $(git remote get-url origin | sed 's!https://!https://x-access-token:'"$GH_PAGES_TOKEN"'@!')
 
     git config url."https://github".insteadOf "git@github.com:"  # force HTTPS, not SSH
 
@@ -49,5 +52,6 @@ fi
 if [ -n "${CUSTOM_DOMAIN}" ]; then
     echo "${CUSTOM_DOMAIN}" > "docs/CNAME"
 fi
+
 
 mkdocs gh-deploy --config-file "./mkdocs.yml" --force
