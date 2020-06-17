@@ -15,8 +15,19 @@ set -e
 # with hints from https://github.com/DavidS/jekyll-deploy/blob/master/entrypoint.rb and https://docs.travis-ci.com/user/deployment/pages/
 # maybe it should be its own script?
 
-export PATH="~/.local/bin":"$PATH"
-pip install --user mkdocs
+# install mkdocs
+# TODO: move this to a dependencies phase instead?
+#export PATH="~/.local/bin":"$PATH"
+#pip install --user mkdocs
+
+# we need to do this in an explicit venv since our build agent
+# isn't fancy enough to spawn fresh containers/VMs for us
+pip install --user virtualenv
+VENV=$(mktemp -d)
+trap 'rm -rf $VENV' EXIT  # cleanup after ourselves
+python -m virtualenv "$VENV"
+. "$VENV"/bin/activate
+pip install --no-cache-dir --ignore-installed mkdocs
 
 if [ -n "${GH_PAGES_TOKEN}" ]; then
     # XXX this is destructive to the repo, but we're assuming this is being run in CI so no matter?
